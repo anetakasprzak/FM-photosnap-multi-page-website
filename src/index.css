@@ -21,6 +21,18 @@ body {
 }
 
 .wrapper {
-  width: 144rem;
+  max-width: 144rem;
   height: auto;
+}
+
+@media screen and (max-width: 48em) {
+  .wrapper {
+    max-width: 76.8rem;
+  }
+}
+
+@media screen and (max-width: 23.5em) {
+  .wrapper {
+    max-width: 37.5rem;
+  }
 }

@@ -5,6 +5,10 @@
   padding: 2.8rem 16.5rem;
 }
 
+.logo {
+  flex-shrink: 0;
+}
+
 .nav__links-box {
   list-style: none;
   display: flex;
@@ -34,9 +38,38 @@
   padding: 1.2rem 2.4rem;
   cursor: pointer;
   transition: all 0.5s;
+  text-wrap: nowrap;
 }
 
 .nav__btn:hover {
   background-color: #dfdfdf;
   color: #000;
+}
+
+.nav__burger {
+  display: none;
+}
+
+@media screen and (max-width: 48em) {
+  .navbar {
+    padding: 2.8rem 5rem;
+  }
+}
+
+@media screen and (max-width: 23.5em) {
+  .navbar {
+    padding: 2.8rem 2.4rem;
+  }
+
+  .nav__links-box {
+    display: none;
+  }
+
+  .nav__btn {
+    display: none;
+  }
+
+  .nav__burger {
+    display: block;
+  }
 }
