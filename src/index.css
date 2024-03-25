@@ -17,5 +17,10 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
+}
+
+.wrapper {
+  width: 144rem;
+  height: auto;
 }
