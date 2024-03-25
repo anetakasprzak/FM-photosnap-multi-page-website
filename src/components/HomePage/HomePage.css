@@ -16,6 +16,12 @@
   font-size: 1.2rem;
   letter-spacing: 2px;
   font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.nav__link:hover {
+  opacity: 0.3;
 }
 
 .nav__btn {
@@ -26,4 +32,11 @@
   font-size: 1.2rem;
   font-family: inherit;
   padding: 1.2rem 2.4rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.nav__btn:hover {
+  background-color: #dfdfdf;
+  color: #000;
 }
