@@ -91,9 +91,14 @@
   font-size: 1.3rem;
 }
 
-.link-arrow--2,
-.link-arrow--3 {
-  stroke: #000;
+.component__link {
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.component__link:hover {
+  text-decoration: underline;
+  margin-right: 1rem;
 }
 
 /* **************** MEDIA QUERIES **************** */
