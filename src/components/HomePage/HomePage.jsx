@@ -1,12 +1,14 @@
 import "./HomePage.css";
 
 import { infoComponentsData } from "../../Data";
+import { storiesData } from "../../Data";
 
 const HomePage = () => {
   return (
     <>
       <NavBar />
       <InfoSection data={infoComponentsData} />
+      <StoriesSection data={storiesData} />
     </>
   );
 };
@@ -116,8 +118,34 @@ const InfoComponent = ({ obj }) => {
   );
 };
 
-const StoriesSection = () => {};
+const StoriesSection = ({ data }) => {
+  return (
+    <section className="stories__section">
+      {data.slice(0, 4).map((obj) => {
+        return <StoryComponent obj={obj} key={obj.id} />;
+      })}
+    </section>
+  );
+};
 
-const StoryComponent = () => {};
+const StoryComponent = ({ obj }) => {
+  const { title, author, image } = obj;
+
+  return (
+    <div className="story__component">
+      <picture className="info__img">
+        <source srcSet={image.mobile} media="(max-width: 37.5rem)" />
+        <source srcSet={image.desktop} media="(max-width: 76.5rem)" />
+        <source srcSet={image.desktop} media="(max-width: 144rem)" />
+        <img src={image.desktop} alt="image" />
+      </picture>
+
+      <div className="story__text-box">
+        <p className="">{title}</p>
+        <p className="">by {author}</p>
+      </div>
+    </div>
+  );
+};
 
 export default HomePage;
