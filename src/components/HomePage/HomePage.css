@@ -107,6 +107,10 @@
   .navbar {
     padding: 2.8rem 5rem;
   }
+
+  .info__text-box {
+    padding: 0 5.4rem 0 5.4rem;
+  }
 }
 
 @media screen and (max-width: 23.5em) {
@@ -124,5 +128,19 @@
 
   .nav__burger {
     display: block;
+  }
+
+  .info__text-box {
+    padding: 7.2rem 2.4rem 7.2rem 2.4rem;
+  }
+
+  .info__component {
+    flex-direction: column-reverse;
+  }
+
+  .component__heading {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    letter-spacing: 3.333px;
   }
 }

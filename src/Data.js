@@ -24,17 +24,6 @@ export const infoComponentsData = [
   },
   {
     id: 2,
-    title: "Beautiful stories every time",
-    text: "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
-    link: { text: "VIEW THE STORIES", href: "" },
-    image: {
-      mobile: imgDesignedForEveryoneMobile,
-      tablet: imgDesignedForEveryoneTablet,
-      desktop: imgBeautifulStoriesDesktop,
-    },
-  },
-  {
-    id: 3,
     title: "Designed for everyone",
     text: "Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. ",
     link: { text: "VIEW THE STORIES", href: "" },
@@ -42,6 +31,17 @@ export const infoComponentsData = [
       mobile: imgBeautifulStoriesMobile,
       tablet: imgBeautifulStoriesTablet,
       desktop: imgDesignedForEveryoneDesktop,
+    },
+  },
+  {
+    id: 3,
+    title: "Beautiful stories every time",
+    text: "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
+    link: { text: "VIEW THE STORIES", href: "" },
+    image: {
+      mobile: imgDesignedForEveryoneMobile,
+      tablet: imgDesignedForEveryoneTablet,
+      desktop: imgBeautifulStoriesDesktop,
     },
   },
 ];
