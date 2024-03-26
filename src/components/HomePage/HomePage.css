@@ -49,6 +49,54 @@
 .nav__burger {
   display: none;
 }
+/* **************** INFO SECTION **************** */
+
+.info__component {
+  display: flex;
+}
+
+.info__component--1 {
+  background-color: #000;
+  color: #fff;
+}
+
+.info__component--2 {
+  flex-direction: row-reverse;
+}
+
+.info__text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.1rem;
+  padding: 0 11rem 0 11rem;
+}
+
+.component__heading {
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: 4.167px;
+}
+
+.component__text {
+  opacity: 0.6;
+  line-height: 2.5rem;
+}
+
+.link__box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.link-arrow--2,
+.link-arrow--3 {
+  stroke: #000;
+}
+
+/* **************** MEDIA QUERIES **************** */
 
 @media screen and (max-width: 48em) {
   .navbar {

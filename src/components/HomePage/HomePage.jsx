@@ -83,12 +83,30 @@ const InfoSection = ({ data }) => {
 };
 
 const InfoComponent = ({ obj }) => {
-  const { id, title, text, image } = obj;
+  const { id, title, text, image, link } = obj;
   return (
-    <div className={`info__component--${id}`}>
-      <h2>{title}</h2>
-      <p>{text}</p>
-      <picture className="img">
+    <div className={`info__component info__component--${id}`}>
+      <div className="info__text-box">
+        <h2 className="component__heading">{title}</h2>
+        <p className="component__text">{text}</p>
+        <div className="link__box">
+          <p className="component__link">{link.text}</p>
+          <div className={`link-arrow--${id}`}>
+            <svg
+              width="42"
+              height="14"
+              viewBox="0 0 42 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 7H41.864" stroke="red" />
+              <path d="M35.4282 1L41.4282 7L35.4282 13" stroke="red" />
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <picture className="info__img">
         <source srcSet={image.mobile} media="(max-width: 37.5rem)" />
         <source srcSet={image.tablet} media="(max-width: 76.5rem)" />
         <source srcSet={image.desktop} media="(max-width: 144rem)" />

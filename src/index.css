@@ -20,6 +20,14 @@ body {
   font-size: 1.5rem;
 }
 
+img,
+picture,
+svg,
+video {
+  display: block;
+  height: auto;
+}
+
 .wrapper {
   max-width: 144rem;
   height: auto;
