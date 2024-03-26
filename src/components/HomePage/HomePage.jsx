@@ -116,4 +116,8 @@ const InfoComponent = ({ obj }) => {
   );
 };
 
+const StoriesSection = () => {};
+
+const StoryComponent = () => {};
+
 export default HomePage;

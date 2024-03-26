@@ -10,6 +10,56 @@ import imgDesignedForEveryoneMobile from "./assets/home/mobile/designed-for-ever
 import imgDesignedForEveryoneTablet from "./assets/home/tablet/designed-for-everyone.jpg";
 import imgDesignedForEveryoneDesktop from "./assets/home/desktop/designed-for-everyone.jpg";
 
+/* */
+
+import imgMountainsDesktop from "./assets/stories/desktop/mountains.jpg";
+import imgMountainsMobile from "./assets/stories/mobile/mountains.jpg";
+
+import imgSunsetCityDesktop from "./assets/stories/desktop/cityscapes.jpg";
+import imgSunsetCityMobile from "./assets/stories/mobile/cityscapes.jpg";
+
+import imgVoyageDesktop from "./assets/stories/desktop/18-days-voyage.jpg";
+import imgVoyageMobile from "./assets/stories/mobile/18-days-voyage.jpg";
+
+import imgArchitecturalsDesktop from "./assets/stories/desktop/architecturals.jpg";
+import imgArchitecturalsMobile from "./assets/stories/mobile/architecturals.jpg";
+
+import imgWorldTourDesktop from "./assets/stories/desktop/world-tour.jpg";
+import imgWorldTourMobile from "./assets/stories/mobile/world-tour.jpg";
+
+import imgUnforeseenDesktop from "./assets/stories/desktop/unforeseen-corners.jpg";
+import imgUnforeseenMobile from "./assets/stories/mobile/unforeseen-corners.jpg";
+
+import imgLionDesktop from "./assets/stories/desktop/king-on-africa.jpg";
+import imgLionMobile from "./assets/stories/mobile/king-on-africa.jpg";
+
+import imgTreeDesktop from "./assets/stories/desktop/trip-to-nowhere.jpg";
+import imgTreeMobile from "./assets/stories/mobile/trip-to-nowhere.jpg";
+
+import imgSeaDesktop from "./assets/stories/desktop/rage-of-the-sea.jpg";
+import imgSeaMobile from "./assets/stories/mobile/rage-of-the-sea.jpg";
+
+import imgHorseDesktop from "./assets/stories/desktop/running-free.jpg";
+import imgHorseMobile from "./assets/stories/mobile/running-free.jpg";
+
+import imgWavesDesktop from "./assets/stories/desktop/behind-the-waves.jpg";
+import imgWavesMobile from "./assets/stories/mobile/behind-the-waves.jpg";
+
+import imgCalmWatersDesktop from "./assets/stories/desktop/calm-waters.jpg";
+import imgCalmWatersMobile from "./assets/stories/mobile/calm-waters.jpg";
+
+import imgTheMilkyWayDesktop from "./assets/stories/desktop/milky-way.jpg";
+import imgTheMilkyWayMobile from "./assets/stories/mobile/milky-way.jpg";
+
+import imgDarkForestDesktop from "./assets/stories/desktop/dark-forest.jpg";
+import imgDarkForestMobile from "./assets/stories/mobile/dark-forest.jpg";
+
+import imgSomwarpetDesktop from "./assets/stories/desktop/somwarpet.jpg";
+import imgSomwarpetMobile from "./assets/stories/mobile/somwarpet.jpg";
+
+import imgLandOfDreamsDesktop from "./assets/stories/desktop/land-of-dreams.jpg";
+import imgLandOfDreamsMobile from "./assets/stories/mobile/land-of-dreams.jpg";
+
 export const infoComponentsData = [
   {
     id: 1,

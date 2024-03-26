@@ -130,12 +130,14 @@
     display: block;
   }
 
-  .info__text-box {
-    padding: 7.2rem 2.4rem 7.2rem 2.4rem;
-  }
+  /* *********** INFO SECTION *********** */
 
   .info__component {
     flex-direction: column-reverse;
+  }
+
+  .info__text-box {
+    padding: 7.2rem 2.4rem 7.2rem 2.4rem;
   }
 
   .component__heading {
