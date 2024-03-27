@@ -184,6 +184,13 @@
   align-items: center;
 }
 
+.feature__component__image-wrapper {
+  width: 7.2rem;
+  height: 7.2rem;
+  align-content: center;
+  justify-content: center;
+}
+
 .feature__img {
   height: auto;
   width: 7.2rem;
