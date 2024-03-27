@@ -143,7 +143,7 @@ const StoryComponent = ({ obj }) => {
       </picture>
 
       <div className="story__text-box">
-        <p className="story__title">{title}</p>
+        <h4 className="story__title">{title}</h4>
         <p className="story__author">by {author}</p>
         <span className="story--line"></span>
         <div className="link--box">
@@ -176,7 +176,13 @@ const FeaturesSection = ({ data }) => {
 
 const FeatureComponent = ({ obj }) => {
   const { title, text, image } = obj;
-  return <p className="">feature</p>;
+  return (
+    <div className="feature__component">
+      <img src={image} alt="feature icon" className="feature__img" />
+      <h4 className="feature__title">{title}</h4>
+      <p className="feature__text">{text}</p>
+    </div>
+  );
 };
 
 export default HomePage;
