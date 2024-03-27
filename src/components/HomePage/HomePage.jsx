@@ -134,9 +134,9 @@ const StoryComponent = ({ obj }) => {
   return (
     <div className="story__component">
       <picture className="story__img">
-        <source srcSet={image.mobile} media="(max-width: 37.5rem)" />
-        <source srcSet={image.desktop} media="(max-width: 76.5rem)" />
-        <source srcSet={image.desktop} media="(max-width: 144rem)" />
+        <source srcSet={image.mobile} media="(max-width: 23.5em)" />
+        {/* <source srcSet={image.desktop} media="(max-width: 90em)" /> */}
+        <source srcSet={image.desktop} media="(max-width: 90em)" />
         <img src={image.desktop} alt="image" />
       </picture>
 
