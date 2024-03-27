@@ -167,7 +167,7 @@ const StoryComponent = ({ obj }) => {
 const FeaturesSection = ({ data }) => {
   return (
     <section className="features__section">
-      {data.map((obj) => {
+      {data.slice(0, 3).map((obj) => {
         return <FeatureComponent obj={obj} key={obj.id} />;
       })}
     </section>
