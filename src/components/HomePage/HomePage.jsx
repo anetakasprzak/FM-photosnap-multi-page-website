@@ -2,6 +2,7 @@ import "./HomePage.css";
 
 import { infoComponentsData } from "../../Data";
 import { storiesData } from "../../Data";
+import { featuresData } from "../../Data";
 
 const HomePage = () => {
   return (
@@ -9,6 +10,7 @@ const HomePage = () => {
       <NavBar />
       <InfoSection data={infoComponentsData} />
       <StoriesSection data={storiesData} />
+      <FeaturesSection data={featuresData} />
     </>
   );
 };
@@ -160,6 +162,21 @@ const StoryComponent = ({ obj }) => {
       </div>
     </div>
   );
+};
+
+const FeaturesSection = ({ data }) => {
+  return (
+    <section className="features__section">
+      {data.map((obj) => {
+        return <FeatureComponent obj={obj} key={obj.id} />;
+      })}
+    </section>
+  );
+};
+
+const FeatureComponent = ({ obj }) => {
+  const { title, text, image } = obj;
+  return <p className="">feature</p>;
 };
 
 export default HomePage;
