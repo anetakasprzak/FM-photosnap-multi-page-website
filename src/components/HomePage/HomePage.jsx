@@ -3,11 +3,12 @@ import "./HomePage.css";
 import { infoComponentsData } from "../../Data";
 import { storiesData } from "../../Data";
 import { featuresData } from "../../Data";
+import { links } from "../../Data";
 
 const HomePage = () => {
   return (
     <>
-      <NavBar />
+      <NavBar data={links} />
       <InfoSection data={infoComponentsData} />
       <StoriesSection data={storiesData} />
       <FeaturesSection data={featuresData} />
@@ -54,9 +55,13 @@ const NavBar = () => {
         </defs>
       </svg>
       <ul className="nav__links-box">
-        <li className="nav__link">Stories</li>
-        <li className="nav__link">Features</li>
-        <li className="nav__link">Pricing</li>
+        {links.slice(1).map((obj) => {
+          return (
+            <li className="nav__link" key={obj.id}>
+              {obj.linkName}
+            </li>
+          );
+        })}
       </ul>
       <button className="nav__btn">Get an invite</button>
       <svg

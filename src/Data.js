@@ -67,6 +67,13 @@ import imgCustomDomain from "./assets/features/desktop/custom-domain.svg";
 import imgBoostExposure from "./assets/features/desktop/boost-exposure.svg";
 import imgDragDrop from "./assets/features/desktop/drag-drop.svg";
 
+export const links = [
+  { id: 1, linkName: "home", href: "" },
+  { id: 2, linkName: "stories", href: "" },
+  { id: 3, linkName: "features", href: "" },
+  { id: 4, linkName: "pricing", href: "" },
+];
+
 export const infoComponentsData = [
   {
     id: 1,
