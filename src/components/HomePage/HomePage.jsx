@@ -5,6 +5,7 @@ import { storiesData } from "../../Data";
 import { featuresData } from "../../Data";
 import { links } from "../../Data";
 import Logo from "../Logo";
+import { socialLinksData } from "../../Data";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <InfoSection data={infoComponentsData} />
       <StoriesSection data={storiesData} />
       <FeaturesSection data={featuresData} />
+      <FooterSection data={socialLinksData} />
     </>
   );
 };
@@ -157,6 +159,24 @@ const FeatureComponent = ({ obj }) => {
       <h4 className="feature__title">{title}</h4>
       <p className="feature__text">{text}</p>
     </div>
+  );
+};
+
+const FooterSection = ({ data }) => {
+  console.log(data);
+  return (
+    <section className="footer__section">
+      <Logo />
+      <ul className="social__links--box">
+        {data.map((link) => {
+          return (
+            <li className="social__link" key={link.id}>
+              <img src={link.icon} alt="link icon" />
+            </li>
+          );
+        })}
+      </ul>
+    </section>
   );
 };
 

@@ -67,6 +67,12 @@ import imgCustomDomain from "./assets/features/desktop/custom-domain.svg";
 import imgBoostExposure from "./assets/features/desktop/boost-exposure.svg";
 import imgDragDrop from "./assets/features/desktop/drag-drop.svg";
 
+import iconFacebook from "./assets/shared/desktop/facebook.svg";
+import iconYouTube from "./assets/shared/desktop/youtube.svg";
+import iconTwitter from "./assets/shared/desktop/twitter.svg";
+import iconPinterest from "./assets/shared/desktop/pinterest.svg";
+import iconInstagram from "./assets/shared/desktop/instagram.svg";
+
 export const links = [
   { id: 1, linkName: "home", href: "" },
   { id: 2, linkName: "stories", href: "" },
@@ -311,4 +317,12 @@ export const featuresData = [
     title: "Drag & Drop Image",
     text: "Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories.",
   },
+];
+
+export const socialLinksData = [
+  { id: 1, icon: iconFacebook },
+  { id: 2, icon: iconYouTube },
+  { id: 3, icon: iconTwitter },
+  { id: 4, icon: iconPinterest },
+  { id: 5, icon: iconInstagram },
 ];
