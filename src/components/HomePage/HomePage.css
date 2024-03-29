@@ -284,6 +284,43 @@
     flex-direction: column;
     gap: 8rem;
   }
+
+  /* *********** FOOTER *********** */
+
+  .footer__section {
+    padding: 6.4rem 2rem 6.4rem 4rem;
+
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, max-content);
+    row-gap: 3rem;
+    column-gap: 5rem;
+  }
+
+  .social__links--box {
+    display: flex;
+    gap: 1.2rem;
+
+    grid-row: 3 / -1;
+  }
+
+  .footer__nav-links--box {
+    grid-row: 2 / 3;
+
+    flex-direction: row;
+    gap: 1.2rem;
+
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+  }
+
+  .link__box {
+    grid-column: 3 / 4;
+  }
+
+  .copyright {
+    grid-column: 3 / -1;
+    grid-row: 3 / -1;
+  }
 }
 
 @media screen and (max-width: 23.5em) {
