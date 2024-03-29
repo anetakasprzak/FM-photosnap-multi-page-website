@@ -213,6 +213,7 @@
 .footer__section {
   background-color: #000;
   color: #fff;
+  padding: 6.4rem 11rem;
 
   display: grid;
   grid-template-rows: repeat(2, 1fr);
@@ -231,6 +232,13 @@
 }
 
 .social__link {
+  filter: brightness(100);
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.social__link:hover {
+  filter: none;
 }
 
 .footer__nav-links--box {
