@@ -14,7 +14,7 @@ const HomePage = () => {
       <InfoSection data={infoComponentsData} />
       <StoriesSection data={storiesData} />
       <FeaturesSection data={featuresData} />
-      <FooterSection data={socialLinksData} />
+      <FooterSection data={socialLinksData} navLinks={links} />
     </>
   );
 };
@@ -32,18 +32,20 @@ const NavBar = () => {
           );
         })}
       </ul>
-      <button className="nav__btn">Get an invite</button>
-      <svg
-        className="nav__burger"
-        width="20"
-        height="6"
-        viewBox="0 0 20 6"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <rect width="20" height="1" fill="black" />
-        <rect y="5" width="20" height="1" fill="black" />
-      </svg>
+      <button className="nav__btn">
+        Get an invite{" "}
+        <svg
+          className="nav__burger"
+          width="20"
+          height="6"
+          viewBox="0 0 20 6"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect width="20" height="1" fill="black" />
+          <rect y="5" width="20" height="1" fill="black" />
+        </svg>
+      </button>
     </div>
   );
 };
@@ -162,8 +164,7 @@ const FeatureComponent = ({ obj }) => {
   );
 };
 
-const FooterSection = ({ data }) => {
-  console.log(data);
+const FooterSection = ({ data, navLinks }) => {
   return (
     <section className="footer__section">
       <Logo />
@@ -176,6 +177,34 @@ const FooterSection = ({ data }) => {
           );
         })}
       </ul>
+
+      <ul className="footer__nav-links--box">
+        {navLinks.map((link) => {
+          return (
+            <li className="nav__link" key={link.id}>
+              {link.linkName}
+            </li>
+          );
+        })}
+      </ul>
+
+      <div className="link__box">
+        <p className="component__link">Get an invite</p>
+        <div className="footer__link-arrow">
+          <svg
+            width="42"
+            height="14"
+            viewBox="0 0 42 14"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 7H41.864" stroke="white" />
+            <path d="M35.4282 1L41.4282 7L35.4282 13" stroke="white" />
+          </svg>
+        </div>
+      </div>
+
+      <p className="copyright">Copyright 2019. All Rights Reserved</p>
     </section>
   );
 };
