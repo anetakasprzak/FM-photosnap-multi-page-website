@@ -1,0 +1,64 @@
+.story__component {
+  position: relative;
+  transition: all 0.3s;
+}
+
+.story__component:hover {
+  transform: translateY(-2rem);
+}
+
+.story__img {
+  filter: brightness(0.85);
+}
+
+.story__text-box {
+  position: absolute;
+  left: 5rem;
+  top: 37rem;
+  z-index: 100;
+
+  width: 73%;
+  display: flex;
+  flex-direction: column;
+
+  color: #fff;
+}
+
+.story__title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.story__author {
+  font-size: 1.3rem;
+  margin-bottom: 1.6rem;
+}
+
+.story--line {
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.link--box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.story__read {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 23.5em) {
+  .story__text-box {
+    left: 4.5rem;
+    top: 25rem;
+    width: 70%;
+  }
+}
