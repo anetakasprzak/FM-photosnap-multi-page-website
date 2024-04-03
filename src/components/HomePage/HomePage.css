@@ -172,12 +172,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   padding: 12rem;
 }
 
 .feature__component {
-  height: 20rem;
+  height: 22rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -200,6 +200,7 @@
   font-size: 1.8rem;
   font-weight: 700;
   line-height: 25px;
+  text-wrap: nowrap;
 }
 
 .feature__text {
