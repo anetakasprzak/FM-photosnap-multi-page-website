@@ -99,8 +99,8 @@ export const infoComponentsData = [
     text: "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
     link: { text: "VIEW THE STORIES", href: "" },
     image: {
-      mobile: imgDesignedForEveryoneMobile,
-      tablet: imgDesignedForEveryoneTablet,
+      mobile: imgBeautifulStoriesMobile,
+      tablet: imgBeautifulStoriesTablet,
       desktop: imgBeautifulStoriesDesktop,
     },
   },
@@ -110,8 +110,8 @@ export const infoComponentsData = [
     text: "Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. ",
     link: { text: "VIEW THE STORIES", href: "" },
     image: {
-      mobile: imgBeautifulStoriesMobile,
-      tablet: imgBeautifulStoriesTablet,
+      mobile: imgDesignedForEveryoneMobile,
+      tablet: imgDesignedForEveryoneTablet,
       desktop: imgDesignedForEveryoneDesktop,
     },
   },
