@@ -73,6 +73,10 @@ import iconTwitter from "./assets/shared/desktop/twitter.svg";
 import iconPinterest from "./assets/shared/desktop/pinterest.svg";
 import iconInstagram from "./assets/shared/desktop/instagram.svg";
 
+import heroStoriesDesktop from "./assets/stories/desktop/moon-of-appalacia.jpg";
+import heroStoriesTablet from "./assets/stories/tablet/moon-of-appalacia.jpg";
+import heroStoriesMobile from "./assets/stories/mobile/moon-of-appalacia.jpg";
+
 export const links = [
   { id: 1, linkName: "home", href: "" },
   { id: 2, linkName: "stories", href: "" },
@@ -326,3 +330,11 @@ export const socialLinksData = [
   { id: 4, icon: iconPinterest },
   { id: 5, icon: iconInstagram },
 ];
+
+export const heroStories = {
+  image: {
+    mobile: heroStoriesMobile,
+    tablet: heroStoriesTablet,
+    desktop: heroStoriesDesktop,
+  },
+};
