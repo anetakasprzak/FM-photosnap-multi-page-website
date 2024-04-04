@@ -45,10 +45,17 @@
 .link--box {
   display: flex;
   gap: 1.5rem;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 .hero__read {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
+}
+
+.link--box:hover {
+  gap: 4rem;
+  text-decoration: underline;
 }
