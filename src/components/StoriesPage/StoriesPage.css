@@ -1,3 +1,54 @@
-.hero__img {
-  height: 30rem;
+.hero__box {
+  position: relative;
+}
+
+.hero__text-box {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  top: 20%;
+  left: 10%;
+  max-width: 39rem;
+  color: #fff;
+}
+
+.hero__heading-small {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.hero__heading-main {
+  text-transform: uppercase;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  letter-spacing: 4.167px;
+  max-width: 35rem;
+}
+
+.date__box {
+  margin-bottom: 0.8rem;
+  opacity: 0.75;
+  display: flex;
+  gap: 01rem;
+}
+
+.hero__text {
+  margin-bottom: 0.8rem;
+  line-height: 2.5rem;
+  font-size: 1.5rem;
+  opacity: 0.6;
+}
+
+.link--box {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.hero__read {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
 }

@@ -28,9 +28,8 @@ const StoriesHero = ({ data }) => {
         </h4>
         <h1 className="hero__heading-main">Hazy full moon of appalachia</h1>
         <div className="date__box">
-          <p className="hero__text">
-            March 2nd 202<strong> by John Appleseed</strong>
-          </p>
+          <p className="date">March 2nd 2020</p>
+          <strong> by John Appleseed</strong>
         </div>
         <p className="hero__text">
           The dissected plateau area, while not actually made up of geological
@@ -39,7 +38,7 @@ const StoriesHero = ({ data }) => {
           are not high, the terrain is extremely rugged.
         </p>
         <div className="link--box">
-          <p className="hero__read">Read story</p>
+          <p className="hero__read">Read the story</p>
           <svg
             width="42"
             height="14"
