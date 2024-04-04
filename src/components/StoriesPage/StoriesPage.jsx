@@ -1,12 +1,15 @@
+import "./StoriesPage.css";
 import NavBar from "../NavBar/NavBar";
 import { heroStories } from "../../Data";
-import "./StoriesPage.css";
+import { storiesData } from "../../Data";
+import StoryComponent from "../StoryComponent/StoryComponent";
 
 const StoriesPage = () => {
   return (
     <>
       <NavBar />
       <StoriesHero data={heroStories} />
+      <StoriesSection data={storiesData} />
     </>
   );
 };
@@ -14,7 +17,7 @@ const StoriesPage = () => {
 const StoriesHero = ({ data }) => {
   const { image } = data;
   return (
-    <div className="hero__box">
+    <section className="hero__box">
       <picture className="hero__img">
         <source srcSet={image.mobile} media="(max-width: 37.5rem)" />
         <source srcSet={image.tablet} media="(max-width: 76.5rem)" />
@@ -51,7 +54,17 @@ const StoriesHero = ({ data }) => {
           </svg>
         </div>
       </div>
-    </div>
+    </section>
+  );
+};
+
+const StoriesSection = ({ data }) => {
+  return (
+    <section className="">
+      {data.map((obj) => {
+        return <StoryComponent obj={obj} key={obj.id} />;
+      })}
+    </section>
   );
 };
 
