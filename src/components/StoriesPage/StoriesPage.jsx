@@ -60,7 +60,7 @@ const StoriesHero = ({ data }) => {
 
 const StoriesSection = ({ data }) => {
   return (
-    <section className="">
+    <section className="stories__section">
       {data.map((obj) => {
         return <StoryComponent obj={obj} key={obj.id} />;
       })}

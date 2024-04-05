@@ -60,6 +60,14 @@
   text-decoration: underline;
 }
 
+/* **************** STORIES **************** */
+
+.stories__section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* **************** MEDIA QUERIES **************** */
 
 @media screen and (max-width: 48em) {
