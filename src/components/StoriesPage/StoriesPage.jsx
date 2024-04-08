@@ -64,7 +64,7 @@ const StoriesSection = ({ data }) => {
   return (
     <section className="stories__section">
       {data.map((obj) => {
-        return <StoryComponent obj={obj} key={obj.id} />;
+        return <StoryComponent showDate obj={obj} key={obj.id} />;
       })}
     </section>
   );

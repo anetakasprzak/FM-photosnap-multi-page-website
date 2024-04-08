@@ -1,0 +1,11 @@
+.features__section--box {
+  padding: 16rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  column-gap: 3rem;
+  row-gap: 10rem;
+}

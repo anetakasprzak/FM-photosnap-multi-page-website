@@ -1,6 +1,6 @@
+import "./FeaturesPage.css";
 import { featuresData } from "../../Data";
 import FeatureComponent from "../FeatureComponent/FeatureComponent";
-import "./FeaturesPage.css";
 
 const FeaturesPage = () => {
   return (

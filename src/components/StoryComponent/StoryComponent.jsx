@@ -1,7 +1,7 @@
 import "./StoryComponent.css";
 
-const StoryComponent = ({ obj }) => {
-  const { title, author, image } = obj;
+const StoryComponent = ({ obj, showDate }) => {
+  const { title, author, image, date } = obj;
 
   return (
     <div className="story__component">
@@ -13,6 +13,7 @@ const StoryComponent = ({ obj }) => {
       </picture>
 
       <div className="story__text-box">
+        {showDate && <p className="story__date">{date}</p>}
         <h4 className="story__title">{title}</h4>
         <p className="story__author">by {author}</p>
         <span className="story--line"></span>

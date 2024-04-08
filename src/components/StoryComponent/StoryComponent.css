@@ -14,7 +14,7 @@
 .story__text-box {
   position: absolute;
   left: 5rem;
-  top: 37rem;
+  top: 35.5rem;
   z-index: 100;
 
   width: 73%;
@@ -22,6 +22,11 @@
   flex-direction: column;
 
   color: #fff;
+}
+
+.story__date {
+  margin-bottom: 0.2rem;
+  opacity: 0.75;
 }
 
 .story__title {
