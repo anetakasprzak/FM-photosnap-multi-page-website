@@ -8,6 +8,7 @@ import { socialLinksData } from "../../Data";
 import NavBar from "../NavBar/NavBar";
 import FooterSection from "../Footer/Footer";
 import StoryComponent from "../StoryComponent/StoryComponent";
+import FeatureComponent from "../FeatureComponent/FeatureComponent";
 
 const HomePage = () => {
   return (
@@ -84,20 +85,6 @@ const FeaturesSection = ({ data }) => {
         return <FeatureComponent obj={obj} key={obj.id} />;
       })}
     </section>
-  );
-};
-
-const FeatureComponent = ({ obj }) => {
-  const { title, text, image } = obj;
-  return (
-    <div className="feature__component">
-      <div className="feature__component__image-wrapper">
-        <img src={image} alt="feature icon" className="feature__img" />
-      </div>
-
-      <h4 className="feature__title">{title}</h4>
-      <p className="feature__text">{text}</p>
-    </div>
   );
 };
 

@@ -1,11 +1,11 @@
-// import HomePage from "./components/HomePage/HomePage";
-import StoriesPage from "./components/StoriesPage/StoriesPage";
+import HomePage from "./components/HomePage/HomePage";
+// import StoriesPage from "./components/StoriesPage/StoriesPage";
 
 function App() {
   return (
     <div className="wrapper">
-      {/* <HomePage /> */}
-      <StoriesPage />
+      <HomePage />
+      {/* <StoriesPage /> */}
     </div>
   );
 }
