@@ -77,6 +77,10 @@ import heroStoriesDesktop from "./assets/stories/desktop/moon-of-appalacia.jpg";
 import heroStoriesTablet from "./assets/stories/tablet/moon-of-appalacia.jpg";
 import heroStoriesMobile from "./assets/stories/mobile/moon-of-appalacia.jpg";
 
+import heroFeaturesDesktop from "./assets/features/desktop/hero.jpg";
+import heroFeaturesTablet from "./assets/features/tablet/hero.jpg";
+import heroFeaturesMobile from "./assets/features/mobile/hero.jpg";
+
 export const links = [
   { id: 1, linkName: "home", href: "" },
   { id: 2, linkName: "stories", href: "" },
@@ -336,5 +340,13 @@ export const heroStories = {
     mobile: heroStoriesMobile,
     tablet: heroStoriesTablet,
     desktop: heroStoriesDesktop,
+  },
+};
+
+export const heroFeatures = {
+  image: {
+    mobile: heroFeaturesMobile,
+    tablet: heroFeaturesTablet,
+    desktop: heroFeaturesDesktop,
   },
 };
