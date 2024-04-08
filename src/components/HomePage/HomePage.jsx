@@ -59,9 +59,9 @@ const InfoComponent = ({ obj }) => {
       </div>
 
       <picture className="info__img">
-        <source srcSet={image.mobile} media="(max-width: 37.5rem)" />
-        <source srcSet={image.tablet} media="(max-width: 76.5rem)" />
-        <source srcSet={image.desktop} media="(max-width: 144rem)" />
+        <source srcSet={image.mobile} media="(max-width: 23.4em)" />
+        <source srcSet={image.tablet} media="(max-width: 47.8em)" />
+        <source srcSet={image.desktop} media="(max-width: 90em)" />
         <img src={image.desktop} alt="image" />
       </picture>
     </div>

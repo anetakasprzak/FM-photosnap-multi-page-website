@@ -1,3 +1,33 @@
+/* *********** HERO *********** */
+
+.features__hero-section {
+  display: flex;
+}
+
+.text__box {
+  height: 49rem;
+  padding: 15.8rem 11.1rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.features__heading {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+  margin-bottom: 2.1rem;
+}
+
+.features__text {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  opacity: 0.55;
+}
+
+/* *********** FEATURES *********** */
+
 .features__section--box {
   padding: 16rem 13rem;
 
@@ -13,6 +43,7 @@
 /* *********** MEDIA QUERIES *********** */
 
 @media screen and (max-width: 85em) {
+  /* *********** FEATURES *********** */
   .features__section--box {
     padding: 14rem 2rem;
 
@@ -22,6 +53,7 @@
 }
 
 @media screen and (max-width: 48em) {
+  /* *********** FEATURES *********** */
   .features__section--box {
     padding: 10rem 3rem;
 
@@ -31,6 +63,23 @@
 }
 
 @media screen and (max-width: 23.5em) {
+  /* *********** HERO *********** */
+  .features__hero-section {
+    flex-direction: column-reverse;
+  }
+
+  .text__box {
+    height: 30rem;
+    padding: 7.2rem 2.8rem;
+  }
+
+  .features__heading {
+    font-size: 3.2rem;
+    line-height: 4rem;
+    letter-spacing: 3.333px;
+    margin-bottom: 1.6rem;
+  }
+
   .features__section--box {
     padding: 10rem 3rem;
     row-gap: 5rem;
