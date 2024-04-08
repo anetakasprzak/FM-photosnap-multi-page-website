@@ -58,6 +58,14 @@
   justify-content: center;
 }
 
+.features__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  padding: 12rem;
+}
+
 /* **************** MEDIA QUERIES **************** */
 
 @media screen and (max-width: 48em) {
