@@ -1,5 +1,5 @@
 .features__section--box {
-  padding: 16rem;
+  padding: 16rem 13rem;
 
   display: flex;
   flex-wrap: wrap;
@@ -8,4 +8,31 @@
   justify-self: center;
   column-gap: 3rem;
   row-gap: 10rem;
+}
+
+/* *********** MEDIA QUERIES *********** */
+
+@media screen and (max-width: 85em) {
+  .features__section--box {
+    padding: 14rem 2rem;
+
+    column-gap: 6rem;
+    row-gap: 7.2rem;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  .features__section--box {
+    padding: 10rem 3rem;
+
+    column-gap: 1.5rem;
+    row-gap: 7.2rem;
+  }
+}
+
+@media screen and (max-width: 23.5em) {
+  .features__section--box {
+    padding: 10rem 3rem;
+    row-gap: 5rem;
+  }
 }
