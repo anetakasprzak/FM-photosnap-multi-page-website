@@ -38,6 +38,12 @@
   margin-left: 10rem;
 }
 
+.link__box {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
 .nav__link {
   text-transform: uppercase;
 }
