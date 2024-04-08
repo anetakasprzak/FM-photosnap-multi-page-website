@@ -1,8 +1,9 @@
 import "./StoriesPage.css";
 import NavBar from "../NavBar/NavBar";
-import { heroStories } from "../../Data";
+import { heroStories, links, socialLinksData } from "../../Data";
 import { storiesData } from "../../Data";
 import StoryComponent from "../StoryComponent/StoryComponent";
+import FooterSection from "../Footer/Footer";
 
 const StoriesPage = () => {
   return (
@@ -10,6 +11,7 @@ const StoriesPage = () => {
       <NavBar />
       <StoriesHero data={heroStories} />
       <StoriesSection data={storiesData} />
+      <FooterSection data={socialLinksData} navLinks={links} />
     </>
   );
 };
