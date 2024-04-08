@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.6rem 16.5rem;
+  padding: 1.6rem 8rem;
 }
 
 .logo {
@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 48em) {
   .navbar {
-    padding: 2.8rem 5rem;
+    padding: 1.6rem 2rem;
   }
 }
 
