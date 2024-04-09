@@ -2,6 +2,8 @@ import "./FeaturesPage.css";
 import { featuresData, heroFeatures } from "../../Data";
 import FeatureComponent from "../FeatureComponent/FeatureComponent";
 import NavBar from "../NavBar/NavBar";
+import CtaComponent from "../CtaComponent/CtaComponent";
+import { ctaImg } from "../../Data";
 
 const FeaturesPage = () => {
   return (
@@ -9,6 +11,7 @@ const FeaturesPage = () => {
       <NavBar />
       <HeroSection data={heroFeatures} />
       <FeaturesSection data={featuresData} />
+      <CtaComponent data={ctaImg} />
     </>
   );
 };

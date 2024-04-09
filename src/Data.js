@@ -81,6 +81,10 @@ import heroFeaturesDesktop from "./assets/features/desktop/hero.jpg";
 import heroFeaturesTablet from "./assets/features/tablet/hero.jpg";
 import heroFeaturesMobile from "./assets/features/mobile/hero.jpg";
 
+import ctaImgDesktop from "./assets/shared/desktop/bg-beta.jpg";
+import ctaImgTablet from "./assets/shared/tablet/bg-beta.jpg";
+import ctaImgMobile from "./assets/shared/mobile/bg-beta.jpg";
+
 export const links = [
   { id: 1, linkName: "home", href: "" },
   { id: 2, linkName: "stories", href: "" },
@@ -348,5 +352,13 @@ export const heroFeatures = {
     mobile: heroFeaturesMobile,
     tablet: heroFeaturesTablet,
     desktop: heroFeaturesDesktop,
+  },
+};
+
+export const ctaImg = {
+  image: {
+    mobile: ctaImgMobile,
+    tablet: ctaImgTablet,
+    desktop: ctaImgDesktop,
   },
 };
