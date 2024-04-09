@@ -1,9 +1,10 @@
 import "./FeaturesPage.css";
-import { featuresData, heroFeatures } from "../../Data";
+import { featuresData, heroFeatures, links, socialLinksData } from "../../Data";
 import FeatureComponent from "../FeatureComponent/FeatureComponent";
 import NavBar from "../NavBar/NavBar";
 import CtaComponent from "../CtaComponent/CtaComponent";
 import { ctaImg } from "../../Data";
+import FooterSection from "../Footer/Footer";
 
 const FeaturesPage = () => {
   return (
@@ -12,6 +13,7 @@ const FeaturesPage = () => {
       <HeroSection data={heroFeatures} />
       <FeaturesSection data={featuresData} />
       <CtaComponent data={ctaImg} />
+      <FooterSection data={socialLinksData} navLinks={links} />
     </>
   );
 };
