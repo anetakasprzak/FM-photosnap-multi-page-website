@@ -1,0 +1,47 @@
+.cta {
+  position: relative;
+}
+
+.cta__text--box {
+  position: absolute;
+  display: flex;
+  padding: 6.8rem 16.5rem;
+  gap: 50rem;
+  top: 0rem;
+  left: 0rem;
+
+  color: #fff;
+}
+
+.cta__heading {
+  width: 40rem;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+}
+
+/* *********** MEDIA QUERIES *********** */
+
+@media screen and (max-width: 48em) {
+  .cta__text--box {
+    padding: 6.8rem 3.9rem;
+    gap: 8rem;
+  }
+}
+
+@media screen and (max-width: 23.5em) {
+  .cta__text--box {
+    flex-direction: column;
+    padding: 6.4rem 3.2rem;
+    gap: 3rem;
+  }
+
+  .cta__heading {
+    width: 31rem;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    letter-spacing: 3.33px;
+  }
+}

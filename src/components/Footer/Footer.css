@@ -50,6 +50,8 @@
 
 .invite__link {
   text-transform: uppercase;
+  text-wrap: nowrap;
+
   letter-spacing: 2px;
   cursor: pointer;
   transition: all 0.3s;
