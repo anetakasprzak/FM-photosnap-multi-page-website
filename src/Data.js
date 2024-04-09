@@ -85,6 +85,10 @@ import ctaImgDesktop from "./assets/shared/desktop/bg-beta.jpg";
 import ctaImgTablet from "./assets/shared/tablet/bg-beta.jpg";
 import ctaImgMobile from "./assets/shared/mobile/bg-beta.jpg";
 
+import pricingHeroDesktop from "./assets/pricing/desktop/hero.jpg";
+import pricingHeroTablet from "./assets/pricing/tablet/hero.jpg";
+import pricingHeroMobile from "./assets/pricing/mobile/hero.jpg";
+
 export const links = [
   { id: 1, linkName: "home", href: "" },
   { id: 2, linkName: "stories", href: "" },
@@ -362,3 +366,35 @@ export const ctaImg = {
     desktop: ctaImgDesktop,
   },
 };
+
+export const pricingHero = {
+  image: {
+    mobile: pricingHeroMobile,
+    tablet: pricingHeroTablet,
+    desktop: pricingHeroDesktop,
+  },
+};
+
+export const pricingCardData = [
+  {
+    id: 1,
+    title: "Basic",
+    text: "Includes basic usage of our platform. Recommended for new and aspiring photographers.",
+    priceYear: "$190.00",
+    priceMonth: "$19.00",
+  },
+  {
+    id: 2,
+    title: "Pro",
+    text: "More advanced features available. Recommended for photography veterans and professionals.",
+    priceYear: "$390.00",
+    priceMonth: "$39.00",
+  },
+  {
+    id: 3,
+    title: "Business",
+    text: "Additional features available such as more detailed metrics. Recommended for business owners.",
+    priceYear: "$990.00",
+    priceMonth: "$99.00",
+  },
+];
