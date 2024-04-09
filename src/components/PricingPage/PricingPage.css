@@ -1,9 +1,98 @@
+/* ************* SWITCH TOGGLE ************* */
+
+.pricing__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toggle__box {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.toggle__text--black {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+}
+
+.toggle__text--grey {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  opacity: 0.5;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 6.4rem;
+  height: 3.2rem;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 2.6rem;
+  width: 2.6rem;
+  left: 4px;
+  bottom: 3px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #000;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(2.9rem);
+  -ms-transform: translateX(2.9rem);
+  transform: translateX(2.9rem);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 3.4rem;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* ************* CARDS ************* */
+
 .cards__section {
   display: flex;
   justify-content: center;
   gap: 3rem;
   align-items: center;
-  padding: 5rem 16.5rem;
+  padding: 3rem 16.5rem 6rem 16.5rem;
 }
 
 .pricing__card {
