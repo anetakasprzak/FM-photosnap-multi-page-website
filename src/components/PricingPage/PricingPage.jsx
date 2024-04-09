@@ -1,3 +1,4 @@
+import "./PricingPage.css";
 import { pricingCardData } from "../../Data";
 
 const PricingPage = () => {
@@ -15,13 +16,15 @@ const CardsSection = ({ data }) => {
 };
 
 const PricingCard = ({ obj }) => {
-  const { title, text, priceYear, priceMonth } = obj;
+  const { title, text, priceYear, priceMonth, id } = obj;
   return (
-    <div className="pricing__card">
+    <div className={`pricing__card pricing__card--${id}`}>
       <h4 className="card__heading">{title}</h4>
-      <p>{text}</p>
-      <div className="">{priceMonth}</div>
+      <p className="text card__text">{text}</p>
+      <div className="card__price">{priceMonth}</div>
+      <span className="text card__text">per month</span>
       {/* <div className="">{priceYear}</div> */}
+      <button className={`card__btn card__btn--${id}`}>Pick plan</button>
     </div>
   );
 };
