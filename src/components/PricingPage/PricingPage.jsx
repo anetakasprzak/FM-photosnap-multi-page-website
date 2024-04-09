@@ -1,8 +1,20 @@
 import "./PricingPage.css";
-import { pricingCardData } from "../../Data";
+import { links, pricingCardData, socialLinksData } from "../../Data";
+import NavBar from "../NavBar/NavBar";
+import { ctaImg } from "../../Data";
+
+import CtaComponent from "../CtaComponent/CtaComponent";
+import FooterSection from "../Footer/Footer";
 
 const PricingPage = () => {
-  return <CardsSection data={pricingCardData} />;
+  return (
+    <>
+      <NavBar />
+      <CardsSection data={pricingCardData} />
+      <CtaComponent data={ctaImg} />
+      <FooterSection data={socialLinksData} navLinks={links} />
+    </>
+  );
 };
 
 const CardsSection = ({ data }) => {
