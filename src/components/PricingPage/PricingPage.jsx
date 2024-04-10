@@ -12,6 +12,7 @@ const PricingPage = () => {
     <>
       <NavBar />
       <CardsSection data={pricingCardData} />
+      <CompareSection />
       <CtaComponent data={ctaImg} />
       <FooterSection data={socialLinksData} navLinks={links} />
     </>
@@ -77,6 +78,71 @@ const PricingCard = ({ obj, isMonthly }) => {
         )}
       </div>
       <button className={`card__btn card__btn--${id}`}>Pick plan</button>
+    </div>
+  );
+};
+
+const CompareSection = () => {
+  return (
+    <div className="compare__section">
+      <h1 className="compare__heading">COMPARE</h1>
+
+      <table>
+        <tr>
+          <th>The features</th>
+          <th>Basic</th>
+          <th>Pro</th>
+          <th>Business</th>
+        </tr>
+        <tr>
+          <td>Unlimited story posting</td>
+          <td>X</td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>Unlimited photo upload</td>
+          <td>X</td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>Embedding custom content</td>
+          <td> </td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>Customize metadata</td>
+          <td> </td>
+          <td>X</td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>Advanced metrics</td>
+          <td> </td>
+          <td> </td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>Photo downloads</td>
+          <td> </td>
+          <td> </td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>Search engine indexing</td>
+          <td> </td>
+          <td> </td>
+          <td>X</td>
+        </tr>
+        <tr>
+          <td>Custom analytics</td>
+          <td> </td>
+          <td> </td>
+          <td>X</td>
+        </tr>
+      </table>
     </div>
   );
 };
