@@ -174,10 +174,6 @@ input:checked + .slider:before {
   text-transform: uppercase;
 }
 
-.table {
-  width: 70rem;
-}
-
 .table__text {
   text-align: start;
   font-size: 1.2rem;
@@ -185,11 +181,29 @@ input:checked + .slider:before {
   letter-spacing: 2px;
 }
 
+.text__position {
+  width: 40rem;
+}
+
 .table__check {
-  display: grid;
-  justify-self: center;
-  align-self: center;
-  justify-content: center;
+  display: flex;
+  margin-left: 30%;
+}
+
+table {
+  width: max-content;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 1.5rem;
+  border-bottom: 1px solid #000;
+}
+
+td {
+  padding: 1.5rem;
+  text-align: center;
+  border-bottom: 1px solid #dfdfdf;
 }
 
 /* ********* MEDIA QUERIES ********* */

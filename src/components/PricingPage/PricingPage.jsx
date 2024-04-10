@@ -114,7 +114,7 @@ const CompareSection = () => {
 
       <table className="table">
         <tr className="table__head">
-          <th className="table__text">The features</th>
+          <th className="table__text text__position">The features</th>
           <th className="table__text">Basic</th>
           <th className="table__text">Pro</th>
           <th className="table__text">Business</th>
