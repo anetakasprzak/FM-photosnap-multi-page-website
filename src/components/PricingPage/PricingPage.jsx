@@ -89,7 +89,7 @@ const CompareSection = () => {
       <h1 className="compare__heading">COMPARE</h1>
 
       <table className="table">
-        <tr>
+        <tr className="table__head">
           <th className="table__text">The features</th>
           <th className="table__text">Basic</th>
           <th className="table__text">Pro</th>

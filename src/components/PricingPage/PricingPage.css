@@ -183,6 +183,13 @@ input:checked + .slider:before {
   letter-spacing: 2px;
 }
 
+.table__check {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  justify-content: center;
+}
+
 /* ********* MEDIA QUERIES ********* */
 
 @media screen and (max-width: 48em) {
