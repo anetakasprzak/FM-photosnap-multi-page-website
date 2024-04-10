@@ -22,16 +22,16 @@ const HeroSection = ({ data }) => {
   const { image } = data;
 
   return (
-    <div className="features__hero-section">
+    <div className="hero-section">
       <div className="text__box">
-        <h1 className="features__heading">Features</h1>
-        <p className="features__text">
+        <h1 className="heading">Features</h1>
+        <p className="section__text">
           We make sure all of our features are designed to be loved by every
           aspiring and even professional photograpers who wanted to share their
           stories.
         </p>
       </div>
-      <picture className="features__hero--img">
+      <picture className="hero--img">
         <source srcSet={image.mobile} media="(max-width: 23.4em)" />
         <source srcSet={image.tablet} media="(max-width: 47.8em)" />
         <source srcSet={image.desktop} media="(max-width: 90em)" />

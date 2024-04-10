@@ -1,10 +1,15 @@
+import { links, socialLinksData } from "../../Data";
+import FooterSection from "../Footer/Footer";
+import NavBar from "../NavBar/NavBar";
 import "./FormPage.css";
 import { useForm } from "react-hook-form";
 
 const FormPage = () => {
   return (
     <>
+      <NavBar />
       <Form />
+      <FooterSection data={socialLinksData} navLinks={links} />
     </>
   );
 };
@@ -26,53 +31,54 @@ function Form() {
   const onSubmit = (data) => console.log(data);
 
   return (
-    <form className="form__section" onSubmit={handleSubmit(onSubmit)}>
-      <div>
-        <input
-          className="input"
-          type="text"
-          placeholder="First Name"
-          {...register("firstName", { required: true })}
-        />
-        {errors.firstName && (
-          <span style={{ color: "red" }}>This field is required</span>
-        )}
-      </div>
-
-      <div>
-        <input
-          className="input"
-          type="text"
-          placeholder="Last Name"
-          {...register("lastName", { required: true })}
-        />
-        {errors.lastName && (
-          <>
+    <div className="form__section">
+      <form className="form" onSubmit={handleSubmit(onSubmit)}>
+        <div>
+          <input
+            className="input"
+            type="text"
+            placeholder="First Name"
+            {...register("firstName", { required: true })}
+          />
+          {errors.firstName && (
             <span style={{ color: "red" }}>This field is required</span>
-          </>
-        )}
-      </div>
+          )}
+        </div>
 
-      <div>
-        <input
-          className="input"
-          type="email"
-          placeholder="Email Address"
-          {...register("email", { required: true })}
-        />
-        {errors.email && (
-          <span style={{ color: "red" }}>This field is required</span>
-        )}
-      </div>
+        <div>
+          <input
+            className="input"
+            type="text"
+            placeholder="Last Name"
+            {...register("lastName", { required: true })}
+          />
+          {errors.lastName && (
+            <>
+              <span style={{ color: "red" }}>This field is required</span>
+            </>
+          )}
+        </div>
 
-      <button type="submit" className="form__btn">
-        Get an invite
-      </button>
-      <p className="form__p">
-        By clicking the button, you are agreeing to our{" "}
-        <span className="form__span">Terms and Services</span>
-      </p>
-    </form>
+        <div>
+          <input
+            className="input"
+            type="email"
+            placeholder="Email Address"
+            {...register("email", { required: true })}
+          />
+          {errors.email && (
+            <span style={{ color: "red" }}>This field is required</span>
+          )}
+        </div>
+
+        <button type="submit" className="form__btn">
+          Get an invite
+        </button>
+        <p className="form__p">
+          By clicking the button, you are agreeing to our Terms and Services.
+        </p>
+      </form>
+    </div>
   );
 }
 

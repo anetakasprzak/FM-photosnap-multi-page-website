@@ -1,0 +1,17 @@
+.form__section {
+  padding: 10rem 16rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+  width: minmax(34rem, 70rem);
+}
+
+.input {
+}
+
+.form__btn {
+}

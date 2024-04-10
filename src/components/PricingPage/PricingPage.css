@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 3rem;
+  margin-top: 10rem;
 }
 
 .toggle__box {

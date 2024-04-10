@@ -1,7 +1,7 @@
 import "./PricingPage.css";
 import { links, pricingCardData, socialLinksData } from "../../Data";
 import NavBar from "../NavBar/NavBar";
-import { ctaImg } from "../../Data";
+import { ctaImg, pricingHero } from "../../Data";
 import check from "../../assets/pricing/desktop/check.svg";
 
 import CtaComponent from "../CtaComponent/CtaComponent";
@@ -12,11 +12,35 @@ const PricingPage = () => {
   return (
     <>
       <NavBar />
+      <HeroSection data={pricingHero} />
       <CardsSection data={pricingCardData} />
       <CompareSection />
       <CtaComponent data={ctaImg} />
       <FooterSection data={socialLinksData} navLinks={links} />
     </>
+  );
+};
+
+const HeroSection = ({ data }) => {
+  const { image } = data;
+
+  return (
+    <div className="hero-section">
+      <div className="text__box">
+        <h1 className="heading">Pricing</h1>
+        <p className="section__text">
+          Create a your stories, Photosnap is a platform for photographers and
+          visual storytellers. It’s the simple way to create and share your
+          photos.
+        </p>
+      </div>
+      <picture className="hero--img">
+        <source srcSet={image.mobile} media="(max-width: 23.4em)" />
+        <source srcSet={image.tablet} media="(max-width: 47.8em)" />
+        <source srcSet={image.desktop} media="(max-width: 90em)" />
+        <img src={image.desktop} alt="image" />
+      </picture>
+    </div>
   );
 };
 
