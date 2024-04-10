@@ -2,6 +2,7 @@ import "./PricingPage.css";
 import { links, pricingCardData, socialLinksData } from "../../Data";
 import NavBar from "../NavBar/NavBar";
 import { ctaImg } from "../../Data";
+import check from "../../assets/pricing/desktop/check.svg";
 
 import CtaComponent from "../CtaComponent/CtaComponent";
 import FooterSection from "../Footer/Footer";
@@ -87,60 +88,101 @@ const CompareSection = () => {
     <div className="compare__section">
       <h1 className="compare__heading">COMPARE</h1>
 
-      <table>
+      <table className="table">
         <tr>
-          <th>The features</th>
-          <th>Basic</th>
-          <th>Pro</th>
-          <th>Business</th>
+          <th className="table__text">The features</th>
+          <th className="table__text">Basic</th>
+          <th className="table__text">Pro</th>
+          <th className="table__text">Business</th>
         </tr>
         <tr>
-          <td>Unlimited story posting</td>
-          <td>X</td>
-          <td>X</td>
-          <td>X</td>
+          <td className="table__text">Unlimited story posting</td>
+          <td>
+            <img className="table__check" src={check} alt="check" />
+          </td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
         </tr>
         <tr>
-          <td>Unlimited photo upload</td>
-          <td>X</td>
-          <td>X</td>
-          <td>X</td>
+          <td className="table__text">Unlimited photo upload</td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
         </tr>
         <tr>
-          <td>Embedding custom content</td>
+          <td className="table__text">Embedding custom content</td>
           <td> </td>
-          <td>X</td>
-          <td>X</td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
         </tr>
         <tr>
-          <td>Customize metadata</td>
+          <td className="table__text">Customize metadata</td>
           <td> </td>
-          <td>X</td>
-          <td>X</td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
         </tr>
         <tr>
-          <td>Advanced metrics</td>
+          <td className="table__text">Advanced metrics</td>
           <td> </td>
           <td> </td>
-          <td>X</td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
         </tr>
         <tr>
-          <td>Photo downloads</td>
+          <td className="table__text">Photo downloads</td>
           <td> </td>
           <td> </td>
-          <td>X</td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
         </tr>
         <tr>
-          <td>Search engine indexing</td>
+          <td className="table__text">Search engine indexing</td>
           <td> </td>
           <td> </td>
-          <td>X</td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
         </tr>
         <tr>
-          <td>Custom analytics</td>
+          <td className="table__text">Custom analytics</td>
           <td> </td>
           <td> </td>
-          <td>X</td>
+          <td>
+            {" "}
+            <img className="table__check" src={check} alt="check" />
+          </td>
         </tr>
       </table>
     </div>

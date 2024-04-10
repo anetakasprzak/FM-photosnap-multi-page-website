@@ -156,13 +156,31 @@ input:checked + .slider:before {
 /* ************* COMPARE SECTION ************* */
 
 .compare__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 14rem 10rem;
 }
 
 .compare__heading {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
 }
 
-.compare__grid {
-  display: grid;
+.table {
+  width: 70rem;
+}
+
+.table__text {
+  text-align: start;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
 }
 
 /* ********* MEDIA QUERIES ********* */
