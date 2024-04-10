@@ -1,4 +1,5 @@
 import "./PricingPage.css";
+
 import { links, pricingCardData, socialLinksData } from "../../Data";
 import NavBar from "../NavBar/NavBar";
 import { ctaImg, pricingHero } from "../../Data";

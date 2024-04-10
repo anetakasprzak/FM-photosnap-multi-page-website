@@ -33,49 +33,48 @@ function Form() {
   return (
     <div className="form__section">
       <form className="form" onSubmit={handleSubmit(onSubmit)}>
-        <div>
+        <div className="form__input-wrapper">
           <input
             className="input"
             type="text"
             placeholder="First Name"
             {...register("firstName", { required: true })}
           />
-          {errors.firstName && (
-            <span style={{ color: "red" }}>This field is required</span>
-          )}
+
+          <span className="error">
+            {errors.firstName ? "This field is required" : ""}
+          </span>
         </div>
 
-        <div>
+        <div className="form__input-wrapper">
           <input
             className="input"
             type="text"
             placeholder="Last Name"
             {...register("lastName", { required: true })}
           />
-          {errors.lastName && (
-            <>
-              <span style={{ color: "red" }}>This field is required</span>
-            </>
-          )}
+          <span className="error">
+            {errors.lastName ? "This field is required" : ""}
+          </span>
         </div>
 
-        <div>
+        <div className="form__input-wrapper">
           <input
             className="input"
             type="email"
             placeholder="Email Address"
             {...register("email", { required: true })}
           />
-          {errors.email && (
-            <span style={{ color: "red" }}>This field is required</span>
-          )}
+          <span className="error">
+            {errors.email ? "This field is required" : ""}
+          </span>
         </div>
 
         <button type="submit" className="form__btn">
           Get an invite
         </button>
         <p className="form__p">
-          By clicking the button, you are agreeing to our Terms and Services.
+          * By clicking the button, you are agreeing to our Terms and Services.
         </p>
       </form>
     </div>

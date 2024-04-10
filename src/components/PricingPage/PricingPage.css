@@ -1,3 +1,29 @@
+.hero-section {
+  display: flex;
+}
+
+.text__box {
+  height: 49rem;
+  padding: 15.8rem 11.1rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.heading {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  letter-spacing: 4.167px;
+  text-transform: uppercase;
+  margin-bottom: 2.1rem;
+}
+
+.section__text {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  opacity: 0.55;
+}
+
 /* ************* SWITCH TOGGLE ************* */
 
 .pricing__box {
