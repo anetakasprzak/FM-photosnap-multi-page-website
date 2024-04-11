@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { links, socialLinksData } from "../../Data";
 import FooterSection from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
@@ -5,17 +6,22 @@ import "./FormPage.css";
 import { useForm } from "react-hook-form";
 
 const FormPage = () => {
+  const [showThankyou, setShowThankyou] = useState(false);
+  const [firstName, setFirstName] = useState("");
+
   return (
     <>
       <NavBar />
-      {/* <Form /> */}
-      <Thankyou />
+      {!showThankyou && (
+        <Form setShowThankyou={setShowThankyou} setFirstName={setFirstName} />
+      )}
+      {showThankyou && <Thankyou firstName={firstName} />}
       <FooterSection data={socialLinksData} navLinks={links} />
     </>
   );
 };
 
-function Form() {
+function Form({ setFirstName, setShowThankyou }) {
   const {
     register,
     handleSubmit,
@@ -29,7 +35,11 @@ function Form() {
     mode: "onChange",
   });
 
-  const onSubmit = (data) => console.log(data);
+  const onSubmit = (data) => {
+    console.log(data);
+    setShowThankyou(true);
+    setFirstName(data.firstName);
+  };
 
   return (
     <div className="form__section">
@@ -82,10 +92,10 @@ function Form() {
   );
 }
 
-const Thankyou = () => {
+const Thankyou = ({ firstName }) => {
   return (
     <div className="thankyou__wrapper">
-      <p className="thankyou__text">Thank you, name!</p>
+      <p className="thankyou__text">Thank you, {firstName}!</p>
     </div>
   );
 };
