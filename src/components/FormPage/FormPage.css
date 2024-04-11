@@ -53,6 +53,16 @@
   color: #7a7a7a;
 }
 
+.thankyou__wrapper {
+  height: 50rem; /* TEMPORARY */
+  display: grid;
+  place-items: center;
+}
+
+.thankyou__text {
+  font-size: 3.8rem;
+}
+
 /* **************** MEDIA QUERIES **************** */
 
 @media screen and (max-width: 48em) {

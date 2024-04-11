@@ -2,8 +2,8 @@
 // import StoriesPage from "./components/StoriesPage/StoriesPage";
 // import FeaturesPage from "./components/FeaturesPage/FeaturesPage";
 
-// import FormPage from "./components/FormPage/FormPage";
-import PricingPage from "./components/PricingPage/PricingPage";
+import FormPage from "./components/FormPage/FormPage";
+// import PricingPage from "./components/PricingPage/PricingPage";
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
       {/* <HomePage /> */}
       {/* <StoriesPage /> */}
       {/* <FeaturesPage /> */}
-      <PricingPage />
-      {/* <FormPage /> */}
+      {/* <PricingPage /> */}
+      <FormPage />
     </div>
   );
 }

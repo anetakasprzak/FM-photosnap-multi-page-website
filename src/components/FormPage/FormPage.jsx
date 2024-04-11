@@ -8,7 +8,8 @@ const FormPage = () => {
   return (
     <>
       <NavBar />
-      <Form />
+      {/* <Form /> */}
+      <Thankyou />
       <FooterSection data={socialLinksData} navLinks={links} />
     </>
   );
@@ -80,5 +81,13 @@ function Form() {
     </div>
   );
 }
+
+const Thankyou = () => {
+  return (
+    <div className="thankyou__wrapper">
+      <p className="thankyou__text">Thank you, name!</p>
+    </div>
+  );
+};
 
 export default FormPage;
