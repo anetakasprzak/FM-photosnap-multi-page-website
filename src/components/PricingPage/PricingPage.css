@@ -232,7 +232,7 @@ td {
   border-bottom: 1px solid #dfdfdf;
 }
 
-/* ********* MEDIA QUERIES ********* */
+/* *************** MEDIA QUERIES *************** */
 
 @media screen and (max-width: 48em) {
   .cards__section {
@@ -265,12 +265,29 @@ td {
   .card__btn {
     max-width: 27rem;
   }
+
+  .compare__section {
+    padding: 10rem 5rem;
+  }
+
+  .text__position {
+    width: 35rem;
+  }
 }
 
 @media screen and (max-width: 23.5em) {
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+
+  .text__box {
+    height: 30rem;
+    padding: 7.2rem 3rem;
+  }
+
   .cards__section {
     gap: 2.4rem;
-    padding: 5rem 2.8rem;
+    padding: 2rem 2.8rem;
   }
 
   .pricing__card {
@@ -292,5 +309,13 @@ td {
 
   .card__price--box {
     text-align: center;
+  }
+
+  .compare__section {
+    padding: 5rem 2rem;
+  }
+
+  .text__position {
+    width: 15.3rem;
   }
 }
