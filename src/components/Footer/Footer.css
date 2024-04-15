@@ -44,8 +44,15 @@
   gap: 2rem;
 }
 
-.nav__link {
+.nav__link a:link,
+.nav__link a:visited {
   text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav__link:hover {
+  opacity: 0.3;
 }
 
 .invite__link {

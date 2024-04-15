@@ -7,10 +7,10 @@ const NavBar = () => {
   return (
     <div className="navbar">
       <Logo />
-      <ul className="nav__links-box">
+      <ul className="navbar__links-box">
         {links.slice(1).map((obj) => {
           return (
-            <li className="nav__link" key={obj.id}>
+            <li className="navbar__link" key={obj.id}>
               <Link to={obj.href}>{obj.linkName}</Link>
             </li>
           );
