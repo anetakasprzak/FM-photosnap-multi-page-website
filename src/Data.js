@@ -101,7 +101,7 @@ export const infoComponentsData = [
     id: 1,
     title: "Create and share your photo stories.",
     text: "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
-    link: { text: "GET AN INVITE", href: "" },
+    link: { text: "GET AN INVITE", href: "/form", color: "white" },
     image: {
       mobile: imgCreateAndShareMobile,
       tablet: imgCreateAndShareTablet,
@@ -113,7 +113,7 @@ export const infoComponentsData = [
     id: 2,
     title: "Beautiful stories every time",
     text: "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
-    link: { text: "VIEW THE STORIES", href: "" },
+    link: { text: "VIEW THE STORIES", href: "/stories", color: "black" },
     image: {
       mobile: imgBeautifulStoriesMobile,
       tablet: imgBeautifulStoriesTablet,
@@ -124,7 +124,7 @@ export const infoComponentsData = [
     id: 3,
     title: "Designed for everyone",
     text: "Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. ",
-    link: { text: "VIEW THE STORIES", href: "" },
+    link: { text: "VIEW THE STORIES", href: "/stories", color: "black" },
     image: {
       mobile: imgDesignedForEveryoneMobile,
       tablet: imgDesignedForEveryoneTablet,

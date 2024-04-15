@@ -45,6 +45,19 @@
   cursor: pointer;
 }
 
+.component__link a:link,
+.component__link a:visited {
+  text-decoration: none;
+}
+
+[data-color="white"] a {
+  color: #fff;
+}
+
+[data-color="black"] a {
+  color: #000;
+}
+
 .component__link:hover {
   text-decoration: underline;
   margin-right: 1rem;

@@ -10,6 +10,7 @@ import FooterSection from "../Footer/Footer";
 import StoryComponent from "../StoryComponent/StoryComponent";
 import FeatureComponent from "../FeatureComponent/FeatureComponent";
 import { useLayoutEffect } from "react";
+import { Link } from "react-router-dom";
 
 const HomePage = () => {
   useLayoutEffect(() => {
@@ -47,7 +48,9 @@ const InfoComponent = ({ obj }) => {
         <h2 className="component__heading">{title}</h2>
         <p className="component__text">{text}</p>
         <div className="link__box">
-          <p className="component__link">{link.text}</p>
+          <p className="component__link" data-color={link.color}>
+            <Link to={link.href}>{link.text}</Link>
+          </p>
           <div className={`link-arrow--${id}`}>
             <svg
               width="42"

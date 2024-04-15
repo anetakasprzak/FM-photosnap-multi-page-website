@@ -42,6 +42,7 @@
   cursor: pointer;
   transition: all 0.5s;
   text-wrap: nowrap;
+  text-decoration: none;
 }
 
 .nav__btn:hover {

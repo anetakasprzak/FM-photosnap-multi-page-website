@@ -6,7 +6,10 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className="navbar">
-      <Logo />
+      <Link to="/">
+        <Logo />
+      </Link>
+
       <ul className="navbar__links-box">
         {links.slice(1).map((obj) => {
           return (
@@ -16,7 +19,9 @@ const NavBar = () => {
           );
         })}
       </ul>
-      <button className="nav__btn">Get an invite </button>
+      <Link className="nav__btn" to="/form">
+        Get an invite{" "}
+      </Link>
       <svg
         className="nav__burger"
         width="20"
