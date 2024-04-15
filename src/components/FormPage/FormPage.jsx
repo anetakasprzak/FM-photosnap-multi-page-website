@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useLayoutEffect, useState } from "react";
 import { links, socialLinksData } from "../../Data";
 import FooterSection from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
@@ -8,6 +8,10 @@ import { useForm } from "react-hook-form";
 const FormPage = () => {
   const [showThankyou, setShowThankyou] = useState(false);
   const [firstName, setFirstName] = useState("");
+
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
 
   return (
     <>

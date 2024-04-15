@@ -7,9 +7,13 @@ import check from "../../assets/pricing/desktop/check.svg";
 
 import CtaComponent from "../CtaComponent/CtaComponent";
 import FooterSection from "../Footer/Footer";
-import { useState } from "react";
+import { useLayoutEffect, useState } from "react";
 
 const PricingPage = () => {
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       <NavBar />

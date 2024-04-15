@@ -5,8 +5,13 @@ import NavBar from "../NavBar/NavBar";
 import CtaComponent from "../CtaComponent/CtaComponent";
 import { ctaImg } from "../../Data";
 import FooterSection from "../Footer/Footer";
+import { useLayoutEffect } from "react";
 
 const FeaturesPage = () => {
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       <NavBar />

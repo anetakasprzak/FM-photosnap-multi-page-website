@@ -1,6 +1,7 @@
 import Logo from "../Logo";
 import "./NavBar.css";
 import { links } from "../../Data";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -10,7 +11,7 @@ const NavBar = () => {
         {links.slice(1).map((obj) => {
           return (
             <li className="nav__link" key={obj.id}>
-              {obj.linkName}
+              <Link to={obj.href}>{obj.linkName}</Link>
             </li>
           );
         })}

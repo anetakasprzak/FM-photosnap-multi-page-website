@@ -9,8 +9,13 @@ import NavBar from "../NavBar/NavBar";
 import FooterSection from "../Footer/Footer";
 import StoryComponent from "../StoryComponent/StoryComponent";
 import FeatureComponent from "../FeatureComponent/FeatureComponent";
+import { useLayoutEffect } from "react";
 
 const HomePage = () => {
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       <NavBar data={links} />

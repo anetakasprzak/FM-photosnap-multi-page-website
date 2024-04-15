@@ -4,8 +4,13 @@ import { heroStories, links, socialLinksData } from "../../Data";
 import { storiesData } from "../../Data";
 import StoryComponent from "../StoryComponent/StoryComponent";
 import FooterSection from "../Footer/Footer";
+import { useLayoutEffect } from "react";
 
 const StoriesPage = () => {
+  useLayoutEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
   return (
     <>
       <NavBar />

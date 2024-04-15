@@ -90,10 +90,10 @@ import pricingHeroTablet from "./assets/pricing/tablet/hero.jpg";
 import pricingHeroMobile from "./assets/pricing/mobile/hero.jpg";
 
 export const links = [
-  { id: 1, linkName: "home", href: "" },
-  { id: 2, linkName: "stories", href: "" },
-  { id: 3, linkName: "features", href: "" },
-  { id: 4, linkName: "pricing", href: "" },
+  { id: 1, linkName: "home", href: "/" },
+  { id: 2, linkName: "stories", href: "/stories" },
+  { id: 3, linkName: "features", href: "/features" },
+  { id: 4, linkName: "pricing", href: "/pricing" },
 ];
 
 export const infoComponentsData = [

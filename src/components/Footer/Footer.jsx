@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const FooterSection = ({ data, navLinks }) => {
@@ -53,7 +54,7 @@ const FooterSection = ({ data, navLinks }) => {
         {navLinks.map((link) => {
           return (
             <li className="nav__link" key={link.id}>
-              {link.linkName}
+              <Link to={link.href}>{link.linkName}</Link>
             </li>
           );
         })}
