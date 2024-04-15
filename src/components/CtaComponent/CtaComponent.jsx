@@ -6,12 +6,14 @@ const CtaComponent = ({ data }) => {
 
   return (
     <section className="cta">
-      <picture className="cta__img">
-        <source srcSet={image.mobile} media="(max-width: 23.4em)" />
-        <source srcSet={image.tablet} media="(max-width: 47.8em)" />
-        <source srcSet={image.desktop} media="(max-width: 90em)" />
-        <img src={image.desktop} alt="image" />
-      </picture>
+      <div className="img__container">
+        <picture className="cta__img">
+          <source srcSet={image.mobile} media="(max-width: 23.4em)" />
+          <source srcSet={image.tablet} media="(max-width: 47.8em)" />
+          <source srcSet={image.desktop} media="(max-width: 90em)" />
+          <img src={image.desktop} alt="image" />
+        </picture>
+      </div>
 
       <div className="cta__text--box">
         <h1 className="cta__heading">
