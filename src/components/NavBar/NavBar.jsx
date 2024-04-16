@@ -2,10 +2,18 @@ import Logo from "../Logo";
 import "./NavBar.css";
 import { links } from "../../Data";
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const NavBar = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
+
+  useEffect(() => {
+    if (isNavOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [isNavOpen]);
 
   return (
     <div className="navbar">
@@ -61,6 +69,23 @@ const NavBar = () => {
               fill="black"
             />
           </svg>
+          <div className="overlay">
+            <div className="nav__dropdown">
+              <ol>
+                {links.slice(1).map((obj) => {
+                  return (
+                    <li className="navbar__link dropdown__link" key={obj.id}>
+                      <Link to={obj.href}>{obj.linkName}</Link>
+                    </li>
+                  );
+                })}
+              </ol>
+
+              <Link className="nav__dropdown-btn" to="/form">
+                Get an invite{" "}
+              </Link>
+            </div>
+          </div>
         </div>
       )}
     </div>
