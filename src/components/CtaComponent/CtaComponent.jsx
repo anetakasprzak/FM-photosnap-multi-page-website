@@ -1,5 +1,5 @@
 import "./CtaComponent.css";
-import "../Footer/Footer.css";
+// import "../Footer/Footer.css";
 
 const CtaComponent = ({ data }) => {
   const { image } = data;

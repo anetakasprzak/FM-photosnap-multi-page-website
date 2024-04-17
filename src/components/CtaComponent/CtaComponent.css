@@ -12,10 +12,10 @@
 .cta__text--box {
   position: absolute;
   display: flex;
-  padding: 6.8rem 16.5rem;
+  padding: 6.8rem 0 6.8rem 12rem;
   top: 0rem;
   left: 0rem;
-  justify-content: space-between;
+  gap: 50rem;
   color: #fff;
   width: 100%;
 }
@@ -33,23 +33,26 @@
 
 @media screen and (max-width: 76em) {
   .cta__text--box {
-    padding: 4.8rem 10rem;
+    padding: 4.8rem 0rem 4.8rem 10rem;
+    gap: 30rem;
   }
 }
 
 @media screen and (max-width: 64em) {
   .cta__text--box {
-    padding: 4.6rem 9rem;
+    padding: 4rem 0 4rem 6rem;
+    gap: 18rem;
   }
   .cta__heading {
     width: 40rem;
-    font-size: 3.4rem;
+    font-size: 3.2rem;
   }
 }
 
-@media screen and (max-width: 52em) {
+@media screen and (max-width: 54em) {
   .cta__text--box {
-    padding: 3.8rem 7.4rem;
+    padding: 3.8rem 0 3rem 7rem;
+    gap: 12rem;
   }
   .cta__heading {
     font-size: 3rem;
@@ -58,22 +61,48 @@
 
 @media screen and (max-width: 48em) {
   .cta__text--box {
-    padding: 3.8rem 4rem;
+    padding: 6rem 0 3.6rem 4rem;
     gap: 8rem;
+  }
+
+  .cta__heading {
+    width: 35rem;
+  }
+}
+
+@media screen and (max-width: 41.5em) {
+  .cta__text--box {
+    padding: 6rem 0 3rem 4rem;
+    gap: 8rem;
+  }
+
+  .cta__heading {
+    width: 30rem;
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (max-width: 38.5em) {
+  .cta__text--box {
+    padding: 4rem 0 3rem 4rem;
+    gap: 6rem;
+  }
+
+  .cta__heading {
+    width: 28rem;
+    font-size: 2.6rem;
   }
 }
 
 @media screen and (max-width: 23.5em) {
   .cta__text--box {
     flex-direction: column;
-    padding: 6.4rem 3.2rem;
+    padding: 6rem 3.2rem;
     gap: 3rem;
   }
 
   .cta__heading {
     width: 31rem;
     font-size: 3.2rem;
-    line-height: 4rem;
-    letter-spacing: 3.33px;
   }
 }
