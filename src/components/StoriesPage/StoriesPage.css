@@ -1,5 +1,11 @@
 .hero__box {
   position: relative;
+  height: 65rem;
+}
+
+.hero__img img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .hero__text-box {

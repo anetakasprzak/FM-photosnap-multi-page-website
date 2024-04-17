@@ -24,13 +24,12 @@ img,
 picture,
 svg,
 video {
-  display: block;
   height: auto;
 }
 
 .wrapper {
   max-width: 144rem;
-  height: auto;
+  margin: 0 auto;
 }
 
 @media screen and (max-width: 48em) {
