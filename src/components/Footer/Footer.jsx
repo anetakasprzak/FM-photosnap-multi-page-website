@@ -61,7 +61,9 @@ const FooterSection = ({ data, navLinks }) => {
       </ul>
 
       <div className="link__box">
-        <p className="invite__link">Get an invite</p>
+        <p className="invite__link">
+          <Link to="/form">Get an invite</Link>
+        </p>
         <div className="footer__link-arrow">
           <svg
             width="42"

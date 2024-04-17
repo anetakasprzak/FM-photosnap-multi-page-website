@@ -1,6 +1,5 @@
 .hero__box {
   position: relative;
-  height: 65rem;
 }
 
 .hero__img img {
@@ -76,6 +75,17 @@
 
 /* **************** MEDIA QUERIES **************** */
 
+@media screen and (max-width: 65.25em) {
+  .info__text-box {
+    padding: 0 3rem;
+  }
+
+  .component__heading {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+}
+
 @media screen and (max-width: 48em) {
   .hero__text-box {
     left: 7%;
@@ -92,5 +102,9 @@
     max-width: 37.5rem;
     background-color: black;
     padding: 4.8rem 2.9rem;
+  }
+
+  .info__component-img {
+    flex: 0 1 auto;
   }
 }

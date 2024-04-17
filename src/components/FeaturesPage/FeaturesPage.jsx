@@ -28,7 +28,7 @@ const HeroSection = ({ data }) => {
 
   return (
     <div className="hero-section">
-      <div className="text__box">
+      <div className="features-text__box">
         <h1 className="heading">Features</h1>
         <p className="section__text">
           We make sure all of our features are designed to be loved by every

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./CtaComponent.css";
 // import "../Footer/Footer.css";
 
@@ -20,7 +21,9 @@ const CtaComponent = ({ data }) => {
           We&apos;re in beta. Get your invite today!
         </h1>
         <div className="link__box">
-          <p className="cta__invite__link invite__link">Get an invite</p>
+          <p className="cta__invite__link invite__link">
+            <Link to="/form">Get an invite</Link>
+          </p>
           <div className="footer__link-arrow">
             <svg
               width="42"

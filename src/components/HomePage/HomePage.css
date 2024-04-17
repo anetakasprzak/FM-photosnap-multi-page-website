@@ -2,7 +2,7 @@
 
 .info__component {
   display: flex;
-  height: 65rem;
+  overflow: hidden;
 }
 
 .info__component--1 {
@@ -25,8 +25,7 @@
 }
 
 .info__component-img {
-  flex: 0 1 auto;
-  height: 65rem;
+  flex: 0 1 83rem;
 }
 
 .info__component-img img {
@@ -98,6 +97,9 @@
 @media screen and (max-width: 48em) {
   .info__text-box {
     padding: 0 5.4rem 0 5.4rem;
+  }
+  .info__component {
+    max-height: 65rem;
   }
 }
 

@@ -5,6 +5,7 @@
   padding: 1.6rem 8rem;
 
   position: relative;
+  height: 7.2rem;
 }
 
 .logo {
@@ -123,7 +124,7 @@
   }
 }
 
-@media screen and (max-width: 23.5em) {
+@media screen and (max-width: 40em) {
   .navbar {
     padding: 2.8rem 2.4rem;
   }
@@ -138,5 +139,9 @@
 
   .nav__burger {
     display: block;
+  }
+
+  .nav__dropdown-btn {
+    align-self: center;
   }
 }

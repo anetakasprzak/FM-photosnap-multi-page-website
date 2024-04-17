@@ -293,11 +293,13 @@ td {
 @media screen and (max-width: 23.5em) {
   .hero-section {
     flex-direction: column-reverse;
+    height: auto;
   }
 
   .text__box {
     height: 30rem;
     padding: 7.2rem 3rem;
+    height: auto;
   }
 
   .cards__section {

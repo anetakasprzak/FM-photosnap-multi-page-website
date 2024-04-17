@@ -64,6 +64,12 @@
   transition: all 0.3s;
 }
 
+.invite__link a:link,
+.invite__link a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 .invite__link:hover {
   margin-right: 2.5rem;
   text-decoration: underline;
@@ -113,7 +119,7 @@
   }
 }
 
-@media screen and (max-width: 23.5em) {
+@media screen and (max-width: 40em) {
   .footer__section {
     padding: 5.6rem 6rem;
     grid-template-rows: 1fr 1fr min-content 1fr 1fr;
