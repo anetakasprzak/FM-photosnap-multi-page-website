@@ -249,6 +249,12 @@ td {
 
 /* *************** MEDIA QUERIES *************** */
 
+@media screen and (max-width: 50.75em) {
+  .cards__section {
+    gap: 1rem;
+  }
+}
+
 @media screen and (max-width: 48em) {
   .cards__section {
     display: flex;
@@ -288,23 +294,31 @@ td {
   .text__position {
     width: 35rem;
   }
-}
-
-@media screen and (max-width: 23.5em) {
-  .hero-section {
-    flex-direction: column-reverse;
-    height: auto;
-  }
 
   .text__box {
-    height: 30rem;
-    padding: 7.2rem 3rem;
-    height: auto;
+    padding: 10.8rem 5.1rem;
+    flex: 0 1 49.5rem;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  .pricing__card {
+    column-gap: 3rem;
+    grid-template-columns: 20rem 1fr;
   }
 
-  .cards__section {
-    gap: 2.4rem;
-    /* padding: 2rem 2.8rem; */
+  .text__position {
+    width: 20rem;
+  }
+}
+
+@media screen and (max-width: 30em) {
+  .text__position {
+    width: 0rem;
+  }
+
+  th {
+    padding: 0.5rem;
   }
 
   .pricing__card {
@@ -326,6 +340,27 @@ td {
 
   .card__price--box {
     text-align: center;
+  }
+
+  .card__btn {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 23.5em) {
+  .hero-section {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .text__box {
+    height: 30rem;
+    padding: 7.2rem 2.8rem;
+  }
+
+  .cards__section {
+    gap: 2.4rem;
+    /* padding: 2rem 2.8rem; */
   }
 
   .compare__section {

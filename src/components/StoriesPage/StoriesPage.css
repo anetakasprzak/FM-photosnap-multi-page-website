@@ -5,6 +5,7 @@
 .hero__img img {
   height: 100%;
   object-fit: cover;
+  height: 65rem;
 }
 
 .hero__text-box {
@@ -12,7 +13,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  top: 20%;
+  top: 18%;
   left: 10%;
   max-width: 39rem;
   color: #fff;
@@ -106,5 +107,9 @@
 
   .info__component-img {
     flex: 0 1 auto;
+  }
+
+  .hero__img img {
+    height: auto;
   }
 }

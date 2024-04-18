@@ -20,6 +20,7 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(3px);
+  z-index: 4;
 }
 
 .nav__dropdown {

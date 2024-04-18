@@ -94,6 +94,18 @@
   }
 }
 
+@media screen and (max-width: 35.7em) {
+  .cta__text--box {
+    flex-direction: column;
+    padding: 2rem 2.2rem;
+    gap: 1rem;
+  }
+
+  .cta__heading {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 23.5em) {
   .cta__text--box {
     flex-direction: column;

@@ -70,6 +70,22 @@
     padding: 8rem 8rem;
   }
 }
+@media screen and (max-width: 48em) {
+  .form__section {
+    padding: 5rem 5rem;
+  }
+}
+
+@media screen and (max-width: 31.87em) {
+  .form__section {
+    padding: 4rem 3rem;
+  }
+
+  .form {
+    width: 30rem;
+    gap: 2rem;
+  }
+}
 
 @media screen and (max-width: 23.5em) {
   .form__section {

@@ -78,7 +78,7 @@ const FooterSection = ({ data, navLinks }) => {
         </div>
       </div>
 
-      <p className="copyright">Copyright 2019. All Rights Reserved</p>
+      <p className="copyright">Copyright 2024. All Rights Reserved</p>
     </section>
   );
 };
