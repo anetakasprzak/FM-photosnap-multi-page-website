@@ -1,93 +1,91 @@
-import imgCreateAndShareMobile from "./assets/home/mobile/create-and-share.jpg";
-import imgCreateAndShareTablet from "./assets/home/tablet/create-and-share.jpg";
-import imgCreateAndShareDesktop from "./assets/home/desktop/create-and-share.jpg";
+// import imgCreateAndShareMobile from "./assets/home/mobile/create-and-share.jpg";
+// import imgCreateAndShareTablet from "./assets/home/tablet/create-and-share.jpg";
+// import imgCreateAndShareDesktop from "./assets/home/desktop/create-and-share.jpg";
 
-import imgBeautifulStoriesMobile from "./assets/home/mobile/beautiful-stories.jpg";
-import imgBeautifulStoriesTablet from "./assets/home/tablet/beautiful-stories.jpg";
-import imgBeautifulStoriesDesktop from "./assets/home/desktop/beautiful-stories.jpg";
+// import imgBeautifulStoriesMobile from "./assets/home/mobile/beautiful-stories.jpg";
+// import imgBeautifulStoriesTablet from "./assets/home/tablet/beautiful-stories.jpg";
+// import imgBeautifulStoriesDesktop from "./assets/home/desktop/beautiful-stories.jpg";
 
-import imgDesignedForEveryoneMobile from "./assets/home/mobile/designed-for-everyone.jpg";
-import imgDesignedForEveryoneTablet from "./assets/home/tablet/designed-for-everyone.jpg";
-import imgDesignedForEveryoneDesktop from "./assets/home/desktop/designed-for-everyone.jpg";
+// import imgDesignedForEveryoneMobile from "./assets/home/mobile/designed-for-everyone.jpg";
+// import imgDesignedForEveryoneTablet from "./assets/home/tablet/designed-for-everyone.jpg";
+// import imgDesignedForEveryoneDesktop from "./assets/home/desktop/designed-for-everyone.jpg";
 
-/* */
+// import imgMountainsDesktop from "./assets/stories/desktop/mountains.jpg";
+// import imgMountainsMobile from "./assets/stories/mobile/mountains.jpg";
 
-import imgMountainsDesktop from "./assets/stories/desktop/mountains.jpg";
-import imgMountainsMobile from "./assets/stories/mobile/mountains.jpg";
+// import imgSunsetCityDesktop from "./assets/stories/desktop/cityscapes.jpg";
+// import imgSunsetCityMobile from "./assets/stories/mobile/cityscapes.jpg";
 
-import imgSunsetCityDesktop from "./assets/stories/desktop/cityscapes.jpg";
-import imgSunsetCityMobile from "./assets/stories/mobile/cityscapes.jpg";
+// import imgVoyageDesktop from "./assets/stories/desktop/18-days-voyage.jpg";
+// import imgVoyageMobile from "./assets/stories/mobile/18-days-voyage.jpg";
 
-import imgVoyageDesktop from "./assets/stories/desktop/18-days-voyage.jpg";
-import imgVoyageMobile from "./assets/stories/mobile/18-days-voyage.jpg";
+// import imgArchitecturalsDesktop from "./assets/stories/desktop/architecturals.jpg";
+// import imgArchitecturalsMobile from "./assets/stories/mobile/architecturals.jpg";
 
-import imgArchitecturalsDesktop from "./assets/stories/desktop/architecturals.jpg";
-import imgArchitecturalsMobile from "./assets/stories/mobile/architecturals.jpg";
+// import imgWorldTourDesktop from "./assets/stories/desktop/world-tour.jpg";
+// import imgWorldTourMobile from "./assets/stories/mobile/world-tour.jpg";
 
-import imgWorldTourDesktop from "./assets/stories/desktop/world-tour.jpg";
-import imgWorldTourMobile from "./assets/stories/mobile/world-tour.jpg";
+// import imgUnforeseenDesktop from "./assets/stories/desktop/unforeseen-corners.jpg";
+// import imgUnforeseenMobile from "./assets/stories/mobile/unforeseen-corners.jpg";
 
-import imgUnforeseenDesktop from "./assets/stories/desktop/unforeseen-corners.jpg";
-import imgUnforeseenMobile from "./assets/stories/mobile/unforeseen-corners.jpg";
+// import imgLionDesktop from "./assets/stories/desktop/king-on-africa.jpg";
+// import imgLionMobile from "./assets/stories/mobile/king-on-africa.jpg";
 
-import imgLionDesktop from "./assets/stories/desktop/king-on-africa.jpg";
-import imgLionMobile from "./assets/stories/mobile/king-on-africa.jpg";
+// import imgTreeDesktop from "./assets/stories/desktop/trip-to-nowhere.jpg";
+// import imgTreeMobile from "./assets/stories/mobile/trip-to-nowhere.jpg";
 
-import imgTreeDesktop from "./assets/stories/desktop/trip-to-nowhere.jpg";
-import imgTreeMobile from "./assets/stories/mobile/trip-to-nowhere.jpg";
+// import imgSeaDesktop from "./assets/stories/desktop/rage-of-the-sea.jpg";
+// import imgSeaMobile from "./assets/stories/mobile/rage-of-the-sea.jpg";
 
-import imgSeaDesktop from "./assets/stories/desktop/rage-of-the-sea.jpg";
-import imgSeaMobile from "./assets/stories/mobile/rage-of-the-sea.jpg";
+// import imgHorseDesktop from "./assets/stories/desktop/running-free.jpg";
+// import imgHorseMobile from "./assets/stories/mobile/running-free.jpg";
 
-import imgHorseDesktop from "./assets/stories/desktop/running-free.jpg";
-import imgHorseMobile from "./assets/stories/mobile/running-free.jpg";
+// import imgWavesDesktop from "./assets/stories/desktop/behind-the-waves.jpg";
+// import imgWavesMobile from "./assets/stories/mobile/behind-the-waves.jpg";
 
-import imgWavesDesktop from "./assets/stories/desktop/behind-the-waves.jpg";
-import imgWavesMobile from "./assets/stories/mobile/behind-the-waves.jpg";
+// import imgCalmWatersDesktop from "./assets/stories/desktop/calm-waters.jpg";
+// import imgCalmWatersMobile from "./assets/stories/mobile/calm-waters.jpg";
 
-import imgCalmWatersDesktop from "./assets/stories/desktop/calm-waters.jpg";
-import imgCalmWatersMobile from "./assets/stories/mobile/calm-waters.jpg";
+// import imgTheMilkyWayDesktop from "./assets/stories/desktop/milky-way.jpg";
+// import imgTheMilkyWayMobile from "./assets/stories/mobile/milky-way.jpg";
 
-import imgTheMilkyWayDesktop from "./assets/stories/desktop/milky-way.jpg";
-import imgTheMilkyWayMobile from "./assets/stories/mobile/milky-way.jpg";
+// import imgDarkForestDesktop from "./assets/stories/desktop/dark-forest.jpg";
+// import imgDarkForestMobile from "./assets/stories/mobile/dark-forest.jpg";
 
-import imgDarkForestDesktop from "./assets/stories/desktop/dark-forest.jpg";
-import imgDarkForestMobile from "./assets/stories/mobile/dark-forest.jpg";
+// import imgSomwarpetDesktop from "./assets/stories/desktop/somwarpet.jpg";
+// import imgSomwarpetMobile from "./assets/stories/mobile/somwarpet.jpg";
 
-import imgSomwarpetDesktop from "./assets/stories/desktop/somwarpet.jpg";
-import imgSomwarpetMobile from "./assets/stories/mobile/somwarpet.jpg";
+// import imgLandOfDreamsDesktop from "./assets/stories/desktop/land-of-dreams.jpg";
+// import imgLandOfDreamsMobile from "./assets/stories/mobile/land-of-dreams.jpg";
 
-import imgLandOfDreamsDesktop from "./assets/stories/desktop/land-of-dreams.jpg";
-import imgLandOfDreamsMobile from "./assets/stories/mobile/land-of-dreams.jpg";
+// import imgResponsive from "./assets/features/desktop/responsive.svg";
+// import imgNoLimit from "./assets/features/desktop/no-limit.svg";
+// import imgEmbed from "./assets/features/desktop/embed.svg";
+// import imgCustomDomain from "./assets/features/desktop/custom-domain.svg";
+// import imgBoostExposure from "./assets/features/desktop/boost-exposure.svg";
+// import imgDragDrop from "./assets/features/desktop/drag-drop.svg";
 
-import imgResponsive from "./assets/features/desktop/responsive.svg";
-import imgNoLimit from "./assets/features/desktop/no-limit.svg";
-import imgEmbed from "./assets/features/desktop/embed.svg";
-import imgCustomDomain from "./assets/features/desktop/custom-domain.svg";
-import imgBoostExposure from "./assets/features/desktop/boost-exposure.svg";
-import imgDragDrop from "./assets/features/desktop/drag-drop.svg";
+// import iconFacebook from "./assets/shared/desktop/facebook.svg";
+// import iconYouTube from "./assets/shared/desktop/youtube.svg";
+// import iconTwitter from "./assets/shared/desktop/twitter.svg";
+// import iconPinterest from "./assets/shared/desktop/pinterest.svg";
+// import iconInstagram from "./assets/shared/desktop/instagram.svg";
 
-import iconFacebook from "./assets/shared/desktop/facebook.svg";
-import iconYouTube from "./assets/shared/desktop/youtube.svg";
-import iconTwitter from "./assets/shared/desktop/twitter.svg";
-import iconPinterest from "./assets/shared/desktop/pinterest.svg";
-import iconInstagram from "./assets/shared/desktop/instagram.svg";
+// import heroStoriesDesktop from "./assets/stories/desktop/moon-of-appalacia.jpg";
+// import heroStoriesTablet from "./assets/stories/tablet/moon-of-appalacia.jpg";
+// import heroStoriesMobile from "./assets/stories/mobile/moon-of-appalacia.jpg";
 
-import heroStoriesDesktop from "./assets/stories/desktop/moon-of-appalacia.jpg";
-import heroStoriesTablet from "./assets/stories/tablet/moon-of-appalacia.jpg";
-import heroStoriesMobile from "./assets/stories/mobile/moon-of-appalacia.jpg";
+// import heroFeaturesDesktop from "./assets/features/desktop/hero.jpg";
+// import heroFeaturesTablet from "./assets/features/tablet/hero.jpg";
+// import heroFeaturesMobile from "./assets/features/mobile/hero.jpg";
 
-import heroFeaturesDesktop from "./assets/features/desktop/hero.jpg";
-import heroFeaturesTablet from "./assets/features/tablet/hero.jpg";
-import heroFeaturesMobile from "./assets/features/mobile/hero.jpg";
+// import ctaImgDesktop from "./assets/shared/desktop/bg-beta.jpg";
+// import ctaImgTablet from "./assets/shared/tablet/bg-beta.jpg";
+// import ctaImgMobile from "./assets/shared/mobile/bg-beta.jpg";
 
-import ctaImgDesktop from "./assets/shared/desktop/bg-beta.jpg";
-import ctaImgTablet from "./assets/shared/tablet/bg-beta.jpg";
-import ctaImgMobile from "./assets/shared/mobile/bg-beta.jpg";
-
-import pricingHeroDesktop from "./assets/pricing/desktop/hero.jpg";
-import pricingHeroTablet from "./assets/pricing/tablet/hero.jpg";
-import pricingHeroMobile from "./assets/pricing/mobile/hero.jpg";
+// import pricingHeroDesktop from "./assets/pricing/desktop/hero.jpg";
+// import pricingHeroTablet from "./assets/pricing/tablet/hero.jpg";
+// import pricingHeroMobile from "./assets/pricing/mobile/hero.jpg";
 
 export const links = [
   { id: 1, linkName: "home", href: "/" },
@@ -103,21 +101,20 @@ export const infoComponentsData = [
     text: "Photosnap is a platform for photographers and visual storytellers. We make it easy to share photos, tell stories and connect with others.",
     link: { text: "GET AN INVITE", href: "/form", color: "white" },
     image: {
-      mobile: imgCreateAndShareMobile,
-      tablet: imgCreateAndShareTablet,
-      desktop: imgCreateAndShareDesktop,
+      mobile: "./assets/home/mobile/create-and-share.jpg",
+      tablet: "./assets/home/tablet/create-and-share.jpg",
+      desktop: "./assets/home/desktop/create-and-share.jpg",
     },
   },
-
   {
     id: 2,
     title: "Beautiful stories every time",
     text: "We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.",
     link: { text: "VIEW THE STORIES", href: "/stories", color: "black" },
     image: {
-      mobile: imgBeautifulStoriesMobile,
-      tablet: imgBeautifulStoriesTablet,
-      desktop: imgBeautifulStoriesDesktop,
+      mobile: "./assets/home/mobile/beautiful-stories.jpg",
+      tablet: "./assets/home/tablet/beautiful-stories.jpg",
+      desktop: "./assets/home/desktop/beautiful-stories.jpg",
     },
   },
   {
@@ -126,9 +123,9 @@ export const infoComponentsData = [
     text: "Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it. ",
     link: { text: "VIEW THE STORIES", href: "/stories", color: "black" },
     image: {
-      mobile: imgDesignedForEveryoneMobile,
-      tablet: imgDesignedForEveryoneTablet,
-      desktop: imgDesignedForEveryoneDesktop,
+      mobile: "./assets/home/mobile/designed-for-everyone.jpg",
+      tablet: "./assets/home/tablet/designed-for-everyone.jpg",
+      desktop: "./assets/home/desktop/designed-for-everyone.jpg",
     },
   },
 ];
@@ -140,8 +137,8 @@ export const storiesData = [
     title: "The Mountains",
     author: "John Appleseed",
     image: {
-      desktop: imgMountainsDesktop,
-      mobile: imgMountainsMobile,
+      desktop: "./assets/stories/desktop/mountains.jpg",
+      mobile: "./assets/stories/mobile/mountains.jpg",
     },
   },
   {
@@ -150,8 +147,8 @@ export const storiesData = [
     title: "Sunset Cityscapes",
     author: "Benjamin Cruz",
     image: {
-      desktop: imgSunsetCityDesktop,
-      mobile: imgSunsetCityMobile,
+      desktop: "./assets/stories/desktop/cityscapes.jpg",
+      mobile: "./assets/stories/mobile/cityscapes.jpg",
     },
   },
   {
@@ -160,8 +157,8 @@ export const storiesData = [
     title: "18 Days Voyage",
     author: "Alexei Borodin",
     image: {
-      desktop: imgVoyageDesktop,
-      mobile: imgVoyageMobile,
+      desktop: "./assets/stories/desktop/18-days-voyage.jpg",
+      mobile: "./assets/stories/mobile/18-days-voyage.jpg",
     },
   },
   {
@@ -170,8 +167,8 @@ export const storiesData = [
     title: "Architecturals",
     author: "Samantha Brooke",
     image: {
-      desktop: imgArchitecturalsDesktop,
-      mobile: imgArchitecturalsMobile,
+      desktop: "./assets/stories/desktop/architecturals.jpg",
+      mobile: "./assets/stories/mobile/architecturals.jpg",
     },
   },
   {
@@ -180,8 +177,8 @@ export const storiesData = [
     title: "World Tour 2019",
     author: "Timothy Wagner",
     image: {
-      desktop: imgWorldTourDesktop,
-      mobile: imgWorldTourMobile,
+      desktop: "./assets/stories/desktop/world-tour.jpg",
+      mobile: "./assets/stories/mobile/world-tour.jpg",
     },
   },
   {
@@ -190,8 +187,8 @@ export const storiesData = [
     title: "Unforeseen Corners",
     author: "William Malcolm",
     image: {
-      desktop: imgUnforeseenDesktop,
-      mobile: imgUnforeseenMobile,
+      desktop: "./assets/stories/desktop/unforeseen-corners.jpg",
+      mobile: "./assets/stories/mobile/unforeseen-corners.jpg",
     },
   },
   {
@@ -200,8 +197,8 @@ export const storiesData = [
     title: "King on Africa: Part II",
     author: "Tim Hillenburg",
     image: {
-      desktop: imgLionDesktop,
-      mobile: imgLionMobile,
+      desktop: "./assets/stories/desktop/king-on-africa.jpg",
+      mobile: "./assets/stories/mobile/king-on-africa.jpg",
     },
   },
   {
@@ -210,8 +207,8 @@ export const storiesData = [
     title: "The Trip to Nowhere",
     author: "Felicia Rourke",
     image: {
-      desktop: imgTreeDesktop,
-      mobile: imgTreeMobile,
+      desktop: "./assets/stories/desktop/trip-to-nowhere.jpg",
+      mobile: "./assets/stories/mobile/trip-to-nowhere.jpg",
     },
   },
   {
@@ -220,8 +217,8 @@ export const storiesData = [
     title: "Rage of The Sea",
     author: "Mohammed Abdul",
     image: {
-      desktop: imgSeaDesktop,
-      mobile: imgSeaMobile,
+      desktop: "./assets/stories/desktop/rage-of-the-sea.jpg",
+      mobile: "./assets/stories/mobile/rage-of-the-sea.jpg",
     },
   },
   {
@@ -230,8 +227,8 @@ export const storiesData = [
     title: "Running Free",
     author: "Michelle",
     image: {
-      desktop: imgHorseDesktop,
-      mobile: imgHorseMobile,
+      desktop: "./assets/stories/desktop/running-free.jpg",
+      mobile: "./assets/stories/mobile/running-free.jpg",
     },
   },
   {
@@ -240,8 +237,8 @@ export const storiesData = [
     title: "Behind the Waves",
     author: "by Lamarr Wilson",
     image: {
-      desktop: imgWavesDesktop,
-      mobile: imgWavesMobile,
+      desktop: "./assets/stories/desktop/behind-the-waves.jpg",
+      mobile: "./assets/stories/mobile/behind-the-waves.jpg",
     },
   },
   {
@@ -250,8 +247,8 @@ export const storiesData = [
     title: "Calm Waters",
     author: "Samantha Brooke",
     image: {
-      desktop: imgCalmWatersDesktop,
-      mobile: imgCalmWatersMobile,
+      desktop: "./assets/stories/desktop/calm-waters.jpg",
+      mobile: "./assets/stories/mobile/calm-waters.jpg",
     },
   },
   {
@@ -260,8 +257,8 @@ export const storiesData = [
     title: "The Milky Way",
     author: "Benjamin Cruz",
     image: {
-      desktop: imgTheMilkyWayDesktop,
-      mobile: imgTheMilkyWayMobile,
+      desktop: "./assets/stories/desktop/milky-way.jpg",
+      mobile: "./assets/stories/mobile/milky-way.jpg",
     },
   },
   {
@@ -270,8 +267,8 @@ export const storiesData = [
     title: "Night at The Dark Forest",
     author: "Mohammed Abdul",
     image: {
-      desktop: imgDarkForestDesktop,
-      mobile: imgDarkForestMobile,
+      desktop: "./assets/stories/desktop/dark-forest.jpg",
+      mobile: "./assets/stories/mobile/dark-forest.jpg",
     },
   },
   {
@@ -280,8 +277,8 @@ export const storiesData = [
     title: "Somwarpet’s Beauty",
     author: "Michelle",
     image: {
-      desktop: imgSomwarpetDesktop,
-      mobile: imgSomwarpetMobile,
+      desktop: "./assets/stories/desktop/somwarpet.jpg",
+      mobile: "./assets/stories/mobile/somwarpet.jpg",
     },
   },
   {
@@ -290,8 +287,8 @@ export const storiesData = [
     title: "Land of Dreams",
     author: "by William Malcolm",
     image: {
-      desktop: imgLandOfDreamsDesktop,
-      mobile: imgLandOfDreamsMobile,
+      desktop: "./assets/stories/desktop/land-of-dreams.jpg",
+      mobile: "./assets/stories/mobile/land-of-dreams.jpg",
     },
   },
 ];
@@ -299,79 +296,79 @@ export const storiesData = [
 export const featuresData = [
   {
     id: 1,
-    image: imgResponsive,
+    image: "./assets/features/desktop/responsive.svg",
     title: "100% Responsive",
     text: "No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen.",
   },
   {
     id: 2,
-    image: imgNoLimit,
+    image: "./assets/features/desktop/no-limit.svg",
     title: "No Photo Upload Limit",
     text: "Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share all of your stories in one go.",
   },
   {
     id: 3,
-    image: imgEmbed,
+    image: "./assets/features/desktop/embed.svg",
     title: "Available to Embed",
     text: "Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. ",
   },
   {
     id: 4,
-    image: imgCustomDomain,
+    image: "./assets/features/desktop/custom-domain.svg",
     title: "Custom Domain",
     text: "With Photosnap subscriptions you can host your stories on your own domain. You can also remove our branding!",
   },
   {
     id: 5,
-    image: imgBoostExposure,
+    image: "./assets/features/desktop/boost-exposure.svg",
     title: "Boost Your Exposure",
     text: "Users that viewed your story or gallery can easily get notifed of new and featured stories with our built in mailing list.",
   },
   {
     id: 6,
-    image: imgDragDrop,
+    image: "./assets/features/desktop/drag-drop.svg",
     title: "Drag & Drop Image",
     text: "Easily drag and drop your image and get beautiful shots everytime. No over the top tooling to add friction to creating stories.",
   },
 ];
 
 export const socialLinksData = [
-  { id: 1, icon: iconFacebook },
-  { id: 2, icon: iconYouTube },
-  { id: 3, icon: iconTwitter },
-  { id: 4, icon: iconPinterest },
-  { id: 5, icon: iconInstagram },
+  { id: 1, icon: "./assets/shared/desktop/facebook.svg" },
+  { id: 2, icon: "./assets/shared/desktop/youtube.svg" },
+  { id: 3, icon: "./assets/shared/desktop/twitter.svg" },
+  { id: 4, icon: "./assets/shared/desktop/pinterest.svg" },
+  { id: 5, icon: "./assets/shared/desktop/instagram.svg" },
 ];
 
 export const heroStories = {
   image: {
-    mobile: heroStoriesMobile,
-    tablet: heroStoriesTablet,
-    desktop: heroStoriesDesktop,
+    mobile: "./assets/stories/mobile/moon-of-appalacia.jpg",
+    tablet: "./assets/stories/tablet/moon-of-appalacia.jpg",
+    desktop: "./assets/stories/desktop/moon-of-appalacia.jpg",
   },
 };
 
 export const heroFeatures = {
   image: {
-    mobile: heroFeaturesMobile,
-    tablet: heroFeaturesTablet,
-    desktop: heroFeaturesDesktop,
+    mobile: "./assets/features/mobile/hero.jpg",
+    tablet: "./assets/features/tablet/hero.jpg",
+    desktop: "./assets/features/desktop/hero.jpg",
   },
 };
 
 export const ctaImg = {
   image: {
-    mobile: ctaImgMobile,
-    tablet: ctaImgTablet,
-    desktop: ctaImgDesktop,
+    mobile: "./assets/shared/mobile/bg-beta.jpg",
+    tablet: "./assets/shared/tablet/bg-beta.jpg",
+    desktop: "./assets/shared/desktop/bg-beta.jpg",
   },
 };
 
 export const pricingHero = {
   image: {
-    mobile: pricingHeroMobile,
-    tablet: pricingHeroTablet,
-    desktop: pricingHeroDesktop,
+    mobile: "./assets/pricing/mobile/hero.jpg",
+    tablet: "./assets/pricing/tablet/hero.jpg",
+    desktop: "./assets/pricing/desktop/hero.jpg",
   },
 };
 

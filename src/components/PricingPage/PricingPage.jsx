@@ -3,7 +3,6 @@ import "./PricingPage.css";
 import { links, pricingCardData, socialLinksData } from "../../Data";
 import NavBar from "../NavBar/NavBar";
 import { ctaImg, pricingHero } from "../../Data";
-import check from "../../assets/pricing/desktop/check.svg";
 
 import CtaComponent from "../CtaComponent/CtaComponent";
 import FooterSection from "../Footer/Footer";
@@ -127,30 +126,54 @@ const CompareSection = () => {
         <tr>
           <td className="table__text">Unlimited story posting</td>
           <td>
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
         </tr>
         <tr>
           <td className="table__text">Unlimited photo upload</td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
         </tr>
         <tr>
@@ -158,11 +181,19 @@ const CompareSection = () => {
           <td> </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
         </tr>
         <tr>
@@ -170,11 +201,19 @@ const CompareSection = () => {
           <td> </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
         </tr>
         <tr>
@@ -183,7 +222,11 @@ const CompareSection = () => {
           <td> </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
         </tr>
         <tr>
@@ -192,7 +235,11 @@ const CompareSection = () => {
           <td> </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
         </tr>
         <tr>
@@ -201,7 +248,11 @@ const CompareSection = () => {
           <td> </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
         </tr>
         <tr>
@@ -210,7 +261,11 @@ const CompareSection = () => {
           <td> </td>
           <td>
             {" "}
-            <img className="table__check" src={check} alt="check" />
+            <img
+              className="table__check"
+              src="./assets/pricing/desktop/check.svg"
+              alt="check"
+            />
           </td>
         </tr>
       </table>
